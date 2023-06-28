@@ -1,28 +1,29 @@
 ---
 schema-version: v1.2.1
-id: draft-mglt-ipsecme-diet-esp-06
+id: draft-mglt-ipsecme-ikev2-diet-esp-extension-03
 title:
-- content: ESP Header Compression and Diet-ESP
+- content: Internet Key Exchange version 2 (IKEv2) extension for the ESP Header Compression
+    (EHC)
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-mglt-ipsecme-diet-esp-06
+- content: https://datatracker.ietf.org/doc/html/draft-mglt-ipsecme-ikev2-diet-esp-extension-03
   type: src
 type: standard
 docid:
-- id: draft-mglt-ipsecme-diet-esp-06
+- id: draft-mglt-ipsecme-ikev2-diet-esp-extension-03
   type: Internet-Draft
   primary: true
-- id: I-D.mglt-ipsecme-diet-esp
+- id: I-D.mglt-ipsecme-ikev2-diet-esp-extension
   type: IETF
   scope: anchor
-docnumber: I-D.mglt-ipsecme-diet-esp
+docnumber: I-D.mglt-ipsecme-ikev2-diet-esp-extension
 date:
 - type: published
-  value: '2018-05-30'
+  value: '2023-06-28'
 contributor:
 - person:
     name:
@@ -77,35 +78,7 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: LMU Munich
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Carsten
-          language:
-          - en
-        - language:
-          - en
-          initial: C
-        formatted_initials:
-          content: C.
-          language:
-          - en
-      surname:
-        content: Bormann
-        language:
-        - en
-      completename:
-        content: Carsten Bormann
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - content: Universitaet Bremen TZI
+        - content: LMU
   role:
   - type: author
 - person:
@@ -133,23 +106,19 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Apple Inc.
+        - content: Google LLC
   role:
   - type: author
 version:
-- draft: '06'
-revdate: '2018-05-30'
+- draft: '03'
+revdate: '2023-06-28'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>ESP Header Compression (EHC) defines a flexible framework to compress
-    communications protected with IPsec/ESP. Compression and decompression is defined
-    by EHC Rules orchestrated by EHC Strategies. The document specifies the Diet-ESP
-    EHC Strategy and associated EHC Rules. Diet-ESP compresses up to 32 bytes per
-    packet for traditional IPv6 VPN and up to 66 bytes for IPv6 VPN sent over a single
-    TCP or UDP session.</p>"
+- content: "<p>This document describes an IKEv2 extension of for the ESP Header Compression
+    (EHC) to agree on a specific ESP Header Compression (EHC) Context.</p>"
   language:
   - en
   script:
@@ -158,23 +127,13 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-mglt-ipsecme-diet-esp-01
+    id: draft-mglt-ipsecme-ikev2-diet-esp-extension-01
     docid:
-    - id: draft-mglt-ipsecme-diet-esp-01
+    - id: draft-mglt-ipsecme-ikev2-diet-esp-extension-01
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-mglt-ipsecme-diet-esp-01
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-mglt-ipsecme-diet-esp-09
-    docid:
-    - id: draft-mglt-ipsecme-diet-esp-09
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-mglt-ipsecme-diet-esp-09
+      content: draft-mglt-ipsecme-ikev2-diet-esp-extension-01
       format: text/plain
 series:
 - type: main
@@ -185,7 +144,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-mglt-ipsecme-diet-esp-06
+  number: draft-mglt-ipsecme-ikev2-diet-esp-extension-03
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

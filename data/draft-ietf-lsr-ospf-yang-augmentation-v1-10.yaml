@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.1
-id: draft-ietf-lsr-ospf-yang-augmentation-v1-09
+id: draft-ietf-lsr-ospf-yang-augmentation-v1-10
 title:
 - content: OSPF YANG Model Augmentations for Additional Features - Version 1
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-lsr-ospf-yang-augmentation-v1-09
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-lsr-ospf-yang-augmentation-v1-10
   type: src
 type: standard
 docid:
-- id: draft-ietf-lsr-ospf-yang-augmentation-v1-09
+- id: draft-ietf-lsr-ospf-yang-augmentation-v1-10
   type: Internet-Draft
   primary: true
 - id: I-D.ietf-lsr-ospf-yang-augmentation-v1
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.ietf-lsr-ospf-yang-augmentation-v1
 date:
 - type: published
-  value: '2023-01-02'
+  value: '2023-06-28'
 contributor:
 - person:
     name:
@@ -49,7 +49,7 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Cisco Systems
+        - content: LabN Consulting, LLC
   role:
   - type: author
 - person:
@@ -81,8 +81,8 @@ contributor:
   role:
   - type: author
 version:
-- draft: '09'
-revdate: '2023-01-02'
+- draft: '10'
+revdate: '2023-06-28'
 language:
 - en
 script:
@@ -130,7 +130,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-lsr-ospf-yang-augmentation-v1-09
+  number: draft-ietf-lsr-ospf-yang-augmentation-v1-10
 doctype: internet-draft
 ext:
   schema-version: v1.0.0
