@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.1
-id: draft-westerlund-tsvwg-sctp-crypto-dtls-00
+id: draft-westerlund-tsvwg-sctp-crypto-dtls-01
 title:
 - content: Datagram Transport Layer Security (DTLS) in the Stream Control Transmission
     Protocol (SCTP) CRYPTO Chunk
@@ -10,11 +10,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-westerlund-tsvwg-sctp-crypto-dtls-00
+- content: https://datatracker.ietf.org/doc/html/draft-westerlund-tsvwg-sctp-crypto-dtls-01
   type: src
 type: standard
 docid:
-- id: draft-westerlund-tsvwg-sctp-crypto-dtls-00
+- id: draft-westerlund-tsvwg-sctp-crypto-dtls-01
   type: Internet-Draft
   primary: true
 - id: I-D.westerlund-tsvwg-sctp-crypto-dtls
@@ -23,7 +23,7 @@ docid:
 docnumber: I-D.westerlund-tsvwg-sctp-crypto-dtls
 date:
 - type: published
-  value: '2023-02-16'
+  value: '2023-06-28'
 contributor:
 - person:
     name:
@@ -113,8 +113,8 @@ contributor:
   role:
   - type: author
 version:
-- draft: '00'
-revdate: '2023-02-16'
+- draft: '01'
+revdate: '2023-06-28'
 language:
 - en
 script:
@@ -135,15 +135,15 @@ abstract:
   - Latn
   format: text/html
 relation:
-- type: updatedBy
+- type: updates
   bibitem:
-    id: draft-westerlund-tsvwg-sctp-crypto-dtls-01
+    id: draft-westerlund-tsvwg-sctp-crypto-dtls-00
     docid:
-    - id: draft-westerlund-tsvwg-sctp-crypto-dtls-01
+    - id: draft-westerlund-tsvwg-sctp-crypto-dtls-00
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-westerlund-tsvwg-sctp-crypto-dtls-01
+      content: draft-westerlund-tsvwg-sctp-crypto-dtls-00
       format: text/plain
 series:
 - type: main
@@ -154,7 +154,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-westerlund-tsvwg-sctp-crypto-dtls-00
+  number: draft-westerlund-tsvwg-sctp-crypto-dtls-01
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

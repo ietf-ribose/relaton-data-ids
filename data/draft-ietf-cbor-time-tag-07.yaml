@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.1
-id: draft-ietf-cbor-time-tag-06
+id: draft-ietf-cbor-time-tag-07
 title:
 - content: Concise Binary Object Representation (CBOR) Tags for Time, Duration, and
     Period
@@ -10,11 +10,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-cbor-time-tag-06
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-cbor-time-tag-07
   type: src
 type: standard
 docid:
-- id: draft-ietf-cbor-time-tag-06
+- id: draft-ietf-cbor-time-tag-07
   type: Internet-Draft
   primary: true
 - id: I-D.ietf-cbor-time-tag
@@ -110,7 +110,7 @@ contributor:
   role:
   - type: author
 version:
-- draft: '06'
+- draft: '07'
 revdate: '2023-06-28'
 language:
 - en
@@ -126,8 +126,8 @@ abstract:
     document defines a CBOR tag for time that allows a more elaborate representation
     of time, as well as related CBOR tags for duration and time period. It is intended
     as the reference document for the IANA registration of the CBOR tags defined.
-    // The present version (-05) adds CDDL definitions; this should now // address
-    all WGLC comments.</p>"
+    // The present version (-07) picks up a few loose ends, completing // the processing
+    of the WGLC input.</p>"
   language:
   - en
   script:
@@ -144,16 +144,6 @@ relation:
     formattedref:
       content: draft-ietf-cbor-time-tag-04
       format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-ietf-cbor-time-tag-07
-    docid:
-    - id: draft-ietf-cbor-time-tag-07
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-ietf-cbor-time-tag-07
-      format: text/plain
 series:
 - type: main
   title:
@@ -163,7 +153,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-cbor-time-tag-06
+  number: draft-ietf-cbor-time-tag-07
 doctype: internet-draft
 ext:
   schema-version: v1.0.0
