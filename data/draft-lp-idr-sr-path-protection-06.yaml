@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.1
-id: draft-lp-idr-sr-path-protection-05
+id: draft-lp-idr-sr-path-protection-06
 title:
 - content: BGP Extensions of SR Policy for Segment List Protection
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-lp-idr-sr-path-protection-05
+- content: https://datatracker.ietf.org/doc/html/draft-lp-idr-sr-path-protection-06
   type: src
 type: standard
 docid:
-- id: draft-lp-idr-sr-path-protection-05
+- id: draft-lp-idr-sr-path-protection-06
   type: Internet-Draft
   primary: true
 - id: I-D.lp-idr-sr-path-protection
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.lp-idr-sr-path-protection
 date:
 - type: published
-  value: '2023-06-26'
+  value: '2023-06-28'
 contributor:
 - person:
     name:
@@ -108,9 +108,37 @@ contributor:
         - content: New H3C Technologies
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Mike
+          language:
+          - en
+        - language:
+          - en
+          initial: M
+        formatted_initials:
+          content: M.
+          language:
+          - en
+      surname:
+        content: Koldychev
+        language:
+        - en
+      completename:
+        content: Mike Koldychev
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Cisco Systems, Inc.
+  role:
+  - type: author
 version:
-- draft: '05'
-revdate: '2023-06-26'
+- draft: '06'
+revdate: '2023-06-28'
 language:
 - en
 script:
@@ -134,16 +162,6 @@ relation:
     formattedref:
       content: draft-lp-idr-sr-path-protection-01
       format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-lp-idr-sr-path-protection-06
-    docid:
-    - id: draft-lp-idr-sr-path-protection-06
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-lp-idr-sr-path-protection-06
-      format: text/plain
 series:
 - type: main
   title:
@@ -153,7 +171,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-lp-idr-sr-path-protection-05
+  number: draft-lp-idr-sr-path-protection-06
 doctype: internet-draft
 ext:
   schema-version: v1.0.0
