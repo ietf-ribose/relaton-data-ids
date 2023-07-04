@@ -1,19 +1,20 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-teas-yang-te-23
+id: draft-ietf-teas-yang-te-33
 title:
-- content: A YANG Data Model for Traffic Engineering Tunnels and Interfaces
+- content: A YANG Data Model for Traffic Engineering Tunnels, Label Switched Paths
+    and Interfaces
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-teas-yang-te-23
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-teas-yang-te-33
   type: src
 type: standard
 docid:
-- id: draft-ietf-teas-yang-te-23
+- id: draft-ietf-teas-yang-te-33
   type: Internet-Draft
   primary: true
 - id: I-D.ietf-teas-yang-te
@@ -22,7 +23,7 @@ docid:
 docnumber: I-D.ietf-teas-yang-te
 date:
 - type: published
-  value: '2020-03-09'
+  value: '2023-07-04'
 contributor:
 - person:
     name:
@@ -49,7 +50,7 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Juniper Networks
+        - content: Cisco Systems Inc
   role:
   - type: author
 - person:
@@ -105,7 +106,7 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Volta Networks
+        - content: Alef Edge
   role:
   - type: author
 - person:
@@ -167,19 +168,51 @@ contributor:
         - content: Individual
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Oscar
+          language:
+          - en
+        - language:
+          - en
+          initial: O
+        - language:
+          - en
+          initial: G
+        formatted_initials:
+          content: O. G.
+          language:
+          - en
+      surname:
+        content: de Dios
+        language:
+        - en
+      completename:
+        content: Oscar Gonzalez de Dios
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Telefonica
+  role:
+  - type: author
 version:
-- draft: '23'
-revdate: '2020-03-09'
+- draft: '33'
+revdate: '2023-07-04'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document defines a YANG data model for the configuration and management
-    of Traffic Engineering (TE) interfaces, tunnels and Label Switched Paths (LSPs).
-    The model is divided into YANG modules that classify data into generic, device-specific,
-    technology agnostic, and technology-specific elements. This model covers data
-    for configuration, operational state, remote procedural calls, and event notifications.</p>"
+- content: "<p>This document defines a YANG data model for the provisioning and management
+    of Traffic Engineering (TE) tunnels, Label Switched Paths (LSPs), and interfaces.
+    The model covers data that is independent of any technology or dataplane encapsulation
+    and is divided into two YANG modules that cover device-specific, and device independent
+    data. This model covers data for configuration, operational state, remote procedural
+    calls, and event notifications.</p>"
   language:
   - en
   script:
@@ -196,16 +229,6 @@ relation:
     formattedref:
       content: draft-ietf-teas-yang-te-18
       format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-ietf-teas-yang-te-33
-    docid:
-    - id: draft-ietf-teas-yang-te-33
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-ietf-teas-yang-te-33
-      format: text/plain
 series:
 - type: main
   title:
@@ -215,7 +238,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-teas-yang-te-23
+  number: draft-ietf-teas-yang-te-33
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

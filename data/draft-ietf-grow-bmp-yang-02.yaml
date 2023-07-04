@@ -1,83 +1,83 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-rats-eat-media-type-02
+id: draft-ietf-grow-bmp-yang-02
 title:
-- content: EAT Media Types
+- content: BMP YANG Module
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-rats-eat-media-type-02
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-grow-bmp-yang-02
   type: src
 type: standard
 docid:
-- id: draft-ietf-rats-eat-media-type-02
+- id: draft-ietf-grow-bmp-yang-02
   type: Internet-Draft
   primary: true
-- id: I-D.ietf-rats-eat-media-type
+- id: I-D.ietf-grow-bmp-yang
   type: IETF
   scope: anchor
-docnumber: I-D.ietf-rats-eat-media-type
+docnumber: I-D.ietf-grow-bmp-yang
 date:
 - type: published
-  value: '2023-03-10'
+  value: '2023-07-04'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Laurence
+        - content: Camilo
           language:
           - en
         - language:
           - en
-          initial: L
+          initial: C
         formatted_initials:
-          content: L.
+          content: C.
           language:
           - en
       surname:
-        content: Lundblade
+        content: Cardona
         language:
         - en
       completename:
-        content: Laurence Lundblade
+        content: Camilo Cardona
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Security Theory LLC
+        - content: NTT
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Henk
+        - content: Paolo
           language:
           - en
         - language:
           - en
-          initial: H
+          initial: P
         formatted_initials:
-          content: H.
+          content: P.
           language:
           - en
       surname:
-        content: Birkholz
+        content: Lucente
         language:
         - en
       completename:
-        content: Henk Birkholz
+        content: Paolo Lucente
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Fraunhofer Institute for Secure Information Technology
+        - content: NTT
   role:
   - type: author
 - person:
@@ -95,30 +95,54 @@ contributor:
           language:
           - en
       surname:
-        content: Fossati
+        content: Graf
         language:
         - en
       completename:
-        content: Thomas Fossati
+        content: Thomas Graf
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: arm
+        - content: Swisscom
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+      surname:
+        content: Claise
+        language:
+        - en
+      completename:
+        content: Benoît Claise
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Huawei
   role:
   - type: author
 version:
 - draft: '02'
-revdate: '2023-03-10'
+revdate: '2023-07-04'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>Payloads used in Remote Attestation Procedures may require an associated
-    media type for their conveyance, for example when used in RESTful APIs. This memo
-    defines media types to be used for Entity Attestation Tokens (EAT).</p>"
+- content: "<p>This document proposes a YANG module for the configuration and monitoring
+    of the BGP Monitoring Protocol (BMP).</p>"
   language:
   - en
   script:
@@ -127,23 +151,13 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-ietf-rats-eat-media-type-01
+    id: draft-ietf-grow-bmp-yang-01
     docid:
-    - id: draft-ietf-rats-eat-media-type-01
+    - id: draft-ietf-grow-bmp-yang-01
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-ietf-rats-eat-media-type-01
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-ietf-rats-eat-media-type-03
-    docid:
-    - id: draft-ietf-rats-eat-media-type-03
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-ietf-rats-eat-media-type-03
+      content: draft-ietf-grow-bmp-yang-01
       format: text/plain
 series:
 - type: main
@@ -154,7 +168,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-rats-eat-media-type-02
+  number: draft-ietf-grow-bmp-yang-02
 doctype: internet-draft
 ext:
   schema-version: v1.0.0
