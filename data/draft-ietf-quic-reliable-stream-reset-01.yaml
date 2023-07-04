@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-quic-reliable-stream-reset-00
+id: draft-ietf-quic-reliable-stream-reset-01
 title:
 - content: Reliable QUIC Stream Resets
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-quic-reliable-stream-reset-00
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-quic-reliable-stream-reset-01
   type: src
 type: standard
 docid:
-- id: draft-ietf-quic-reliable-stream-reset-00
+- id: draft-ietf-quic-reliable-stream-reset-01
   type: Internet-Draft
   primary: true
 - id: I-D.ietf-quic-reliable-stream-reset
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.ietf-quic-reliable-stream-reset
 date:
 - type: published
-  value: '2023-04-23'
+  value: '2023-07-03'
 contributor:
 - person:
     name:
@@ -81,8 +81,8 @@ contributor:
   role:
   - type: author
 version:
-- draft: '00'
-revdate: '2023-04-23'
+- draft: '01'
+revdate: '2023-07-03'
 language:
 - en
 script:
@@ -92,23 +92,23 @@ abstract:
     a sender resets a stream, it stops retransmitting STREAM frames for this stream.
     On the receiver side, there is no guarantee that any of the data sent on that
     stream is delivered to the application. This document defines a new QUIC frame,
-    the RELIABLE_RESET_STREAM frame, that resets a stream, while guaranteeing reliable
-    delivery of stream data up to a certain byte offset.</p>"
+    the CLOSE_STREAM frame, that allows closing and resetting of a stream, while guaranteeing
+    reliable delivery of stream data up to a certain byte offset.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: updatedBy
+- type: updates
   bibitem:
-    id: draft-ietf-quic-reliable-stream-reset-01
+    id: draft-ietf-quic-reliable-stream-reset-00
     docid:
-    - id: draft-ietf-quic-reliable-stream-reset-01
+    - id: draft-ietf-quic-reliable-stream-reset-00
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-ietf-quic-reliable-stream-reset-01
+      content: draft-ietf-quic-reliable-stream-reset-00
       format: text/plain
 series:
 - type: main
@@ -119,7 +119,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-quic-reliable-stream-reset-00
+  number: draft-ietf-quic-reliable-stream-reset-01
 doctype: internet-draft
 ext:
   schema-version: v1.0.0
