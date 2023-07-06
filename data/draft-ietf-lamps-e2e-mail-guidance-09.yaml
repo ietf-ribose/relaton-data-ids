@@ -1,61 +1,67 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-netconf-yang-notifications-versioning-00
+id: draft-ietf-lamps-e2e-mail-guidance-09
 title:
-- content: Support of Versioning in YANG Notifications Subscription
+- content: Guidance on End-to-End E-mail Security
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-netconf-yang-notifications-versioning-00
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-lamps-e2e-mail-guidance-09
   type: src
 type: standard
 docid:
-- id: draft-ietf-netconf-yang-notifications-versioning-00
+- id: draft-ietf-lamps-e2e-mail-guidance-09
   type: Internet-Draft
   primary: true
-- id: I-D.ietf-netconf-yang-notifications-versioning
+- id: I-D.ietf-lamps-e2e-mail-guidance
   type: IETF
   scope: anchor
-docnumber: I-D.ietf-netconf-yang-notifications-versioning
+docnumber: I-D.ietf-lamps-e2e-mail-guidance
 date:
 - type: published
-  value: '2023-06-19'
+  value: '2023-07-06'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Thomas
+        - content: Daniel
           language:
           - en
         - language:
           - en
-          initial: T
+          initial: D
+        - language:
+          - en
+          initial: K
         formatted_initials:
-          content: T.
+          content: D. K.
           language:
           - en
       surname:
-        content: Graf
+        content: Gillmor
         language:
         - en
       completename:
-        content: Thomas Graf
+        content: Daniel Kahn Gillmor
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Swisscom
+        - content: American Civil Liberties Union
   role:
   - type: author
 - person:
     name:
       given:
         forename:
+        - content: Bernie
+          language:
+          - en
         - language:
           - en
           initial: B
@@ -64,77 +70,78 @@ contributor:
           language:
           - en
       surname:
-        content: Claise
+        content: Hoeneisen
         language:
         - en
       completename:
-        content: Benoît Claise
+        content: Bernie Hoeneisen
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Huawei
+        - content: pEp Foundation
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Alex
+        - content: Alexey
           language:
           - en
         - language:
           - en
           initial: A
-        - language:
-          - en
-          initial: H
         formatted_initials:
-          content: A. H.
+          content: A.
           language:
           - en
       surname:
-        content: Feng
+        content: Melnikov
         language:
         - en
       completename:
-        content: Alex Huang Feng
+        content: Alexey Melnikov
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: INSA-Lyon
+        - content: Isode Ltd
   role:
   - type: author
 version:
-- draft: '00'
-revdate: '2023-06-19'
+- draft: '09'
+revdate: '2023-07-06'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document extends the YANG notifications subscription mechanism
-    to specify the YANG module semantic version at the subscription. Then, a new extension
-    with the revision and the semantic version of the YANG push subscription state
-    change notification is proposed.</p>"
+- content: "<p>End-to-end cryptographic protections for e-mail messages can provide
+    useful security. However, the standards for providing cryptographic protection
+    are extremely flexible. That flexibility can trap users and cause surprising failures.
+    This document offers guidance for mail user agent implementers to help mitigate
+    those risks, and to make end-to-end e-mail simple and secure for the end user.
+    It provides a useful set of vocabulary as well as suggestions to avoid common
+    failures. It also identifies a number of currently unsolved usability and interoperability
+    problems.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: updatedBy
+- type: updates
   bibitem:
-    id: draft-ietf-netconf-yang-notifications-versioning-01
+    id: draft-ietf-lamps-e2e-mail-guidance-03
     docid:
-    - id: draft-ietf-netconf-yang-notifications-versioning-01
+    - id: draft-ietf-lamps-e2e-mail-guidance-03
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-ietf-netconf-yang-notifications-versioning-01
+      content: draft-ietf-lamps-e2e-mail-guidance-03
       format: text/plain
 series:
 - type: main
@@ -145,7 +152,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-netconf-yang-notifications-versioning-00
+  number: draft-ietf-lamps-e2e-mail-guidance-09
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

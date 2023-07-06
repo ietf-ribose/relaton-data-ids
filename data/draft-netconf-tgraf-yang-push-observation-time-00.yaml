@@ -1,28 +1,28 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-netconf-yang-notifications-versioning-00
+id: draft-netconf-tgraf-yang-push-observation-time-00
 title:
-- content: Support of Versioning in YANG Notifications Subscription
+- content: Support of Network Observation Timestamping in YANG Notifications
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-netconf-yang-notifications-versioning-00
+- content: https://datatracker.ietf.org/doc/html/draft-netconf-tgraf-yang-push-observation-time-00
   type: src
 type: standard
 docid:
-- id: draft-ietf-netconf-yang-notifications-versioning-00
+- id: draft-netconf-tgraf-yang-push-observation-time-00
   type: Internet-Draft
   primary: true
-- id: I-D.ietf-netconf-yang-notifications-versioning
+- id: I-D.netconf-tgraf-yang-push-observation-time
   type: IETF
   scope: anchor
-docnumber: I-D.ietf-netconf-yang-notifications-versioning
+docnumber: I-D.netconf-tgraf-yang-push-observation-time
 date:
 - type: published
-  value: '2023-06-19'
+  value: '2023-07-06'
 contributor:
 - person:
     name:
@@ -110,32 +110,20 @@ contributor:
   - type: author
 version:
 - draft: '00'
-revdate: '2023-06-19'
+revdate: '2023-07-06'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document extends the YANG notifications subscription mechanism
-    to specify the YANG module semantic version at the subscription. Then, a new extension
-    with the revision and the semantic version of the YANG push subscription state
-    change notification is proposed.</p>"
+- content: <p>This document extends the YANG Notification header with the YANG objects
+    observation timestamping, both for the "push-update" and "push-change-update"
+    notifications.</p>
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: updatedBy
-  bibitem:
-    id: draft-ietf-netconf-yang-notifications-versioning-01
-    docid:
-    - id: draft-ietf-netconf-yang-notifications-versioning-01
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-ietf-netconf-yang-notifications-versioning-01
-      format: text/plain
 series:
 - type: main
   title:
@@ -145,7 +133,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-netconf-yang-notifications-versioning-00
+  number: draft-netconf-tgraf-yang-push-observation-time-00
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

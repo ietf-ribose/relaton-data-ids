@@ -1,34 +1,34 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-lamps-x509-policy-graph-00
+id: draft-irtf-cfrg-dnhpke-01
 title:
-- content: Updates to X.509 Policy Validation
+- content: Deterministic Nonce-less Hybrid Public Key Encryption
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-lamps-x509-policy-graph-00
+- content: https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-dnhpke-01
   type: src
 type: standard
 docid:
-- id: draft-ietf-lamps-x509-policy-graph-00
+- id: draft-irtf-cfrg-dnhpke-01
   type: Internet-Draft
   primary: true
-- id: I-D.ietf-lamps-x509-policy-graph
+- id: I-D.irtf-cfrg-dnhpke
   type: IETF
   scope: anchor
-docnumber: I-D.ietf-lamps-x509-policy-graph
+docnumber: I-D.irtf-cfrg-dnhpke
 date:
 - type: published
-  value: '2023-07-05'
+  value: '2023-07-06'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: David
+        - content: Dan
           language:
           - en
         - language:
@@ -39,46 +39,47 @@ contributor:
           language:
           - en
       surname:
-        content: Benjamin
+        content: Harkins
         language:
         - en
       completename:
-        content: David Benjamin
+        content: Dan Harkins
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Google LLC
+        - content: Hewlett-Packard Enterprise
   role:
   - type: author
 version:
-- draft: '00'
-revdate: '2023-07-05'
+- draft: '01'
+revdate: '2023-07-06'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document updates RFC 5280 to replace the algorithm for X.509 policy
-    validation with an equivalent, more efficient algorithm. The original algorithm
-    built a structure which scaled exponentially in the worst case, leaving implementations
-    vulnerable to denial-of- service attacks.</p>"
+- content: '<p>This document describes enhancements to the Hybrid Public Key Encryption
+    standard published by CFRG. These include use of "compact representation" of relevant
+    public keys, support for key-wrapping, and two ways to address the use of HPKE
+    on lossy networks: a determinstic, nonce-less AEAD scheme, and use of a rolling
+    sequence number with existing AEAD schemes.</p>'
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: updatedBy
+- type: updates
   bibitem:
-    id: draft-ietf-lamps-x509-policy-graph-01
+    id: draft-irtf-cfrg-dnhpke-00
     docid:
-    - id: draft-ietf-lamps-x509-policy-graph-01
+    - id: draft-irtf-cfrg-dnhpke-00
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-ietf-lamps-x509-policy-graph-01
+      content: draft-irtf-cfrg-dnhpke-00
       format: text/plain
 series:
 - type: main
@@ -89,7 +90,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-lamps-x509-policy-graph-00
+  number: draft-irtf-cfrg-dnhpke-01
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

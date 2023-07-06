@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-ippm-stamp-srpm-15
+id: draft-ietf-ippm-stamp-srpm-16
 title:
 - content: Simple TWAMP (STAMP) Extensions for Segment Routing Networks
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-ippm-stamp-srpm-15
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-ippm-stamp-srpm-16
   type: src
 type: standard
 docid:
-- id: draft-ietf-ippm-stamp-srpm-15
+- id: draft-ietf-ippm-stamp-srpm-16
   type: Internet-Draft
   primary: true
 - id: I-D.ietf-ippm-stamp-srpm
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.ietf-ippm-stamp-srpm
 date:
 - type: published
-  value: '2023-06-22'
+  value: '2023-07-06'
 contributor:
 - person:
     name:
@@ -196,8 +196,8 @@ contributor:
   role:
   - type: author
 version:
-- draft: '15'
-revdate: '2023-06-22'
+- draft: '16'
+revdate: '2023-07-06'
 language:
 - en
 script:
@@ -224,16 +224,6 @@ relation:
     formattedref:
       content: draft-ietf-ippm-stamp-srpm-11
       format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-ietf-ippm-stamp-srpm-16
-    docid:
-    - id: draft-ietf-ippm-stamp-srpm-16
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-ietf-ippm-stamp-srpm-16
-      format: text/plain
 series:
 - type: main
   title:
@@ -243,7 +233,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-ippm-stamp-srpm-15
+  number: draft-ietf-ippm-stamp-srpm-16
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

@@ -1,118 +1,62 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-ippm-stamp-srpm-15
+id: draft-ietf-bier-te-isis-08
 title:
-- content: Simple TWAMP (STAMP) Extensions for Segment Routing Networks
+- content: IS-IS Extensions for BIER-TE
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-ippm-stamp-srpm-15
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-bier-te-isis-08
   type: src
 type: standard
 docid:
-- id: draft-ietf-ippm-stamp-srpm-15
+- id: draft-ietf-bier-te-isis-08
   type: Internet-Draft
   primary: true
-- id: I-D.ietf-ippm-stamp-srpm
+- id: I-D.ietf-bier-te-isis
   type: IETF
   scope: anchor
-docnumber: I-D.ietf-ippm-stamp-srpm
+docnumber: I-D.ietf-bier-te-isis
 date:
 - type: published
-  value: '2023-06-22'
+  value: '2023-07-06'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Rakesh
+        - content: Huaimo
           language:
           - en
         - language:
           - en
-          initial: R
+          initial: H
         formatted_initials:
-          content: R.
+          content: H.
           language:
           - en
       surname:
-        content: Gandhi
+        content: Chen
         language:
         - en
       completename:
-        content: Rakesh Gandhi
+        content: Huaimo Chen
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Cisco Systems, Inc.
+        - content: Futurewei
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Clarence
-          language:
-          - en
-        - language:
-          - en
-          initial: C
-        formatted_initials:
-          content: C.
-          language:
-          - en
-      surname:
-        content: Filsfils
-        language:
-        - en
-      completename:
-        content: Clarence Filsfils
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - content: Cisco Systems, Inc.
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Daniel
-          language:
-          - en
-        - language:
-          - en
-          initial: D
-        formatted_initials:
-          content: D.
-          language:
-          - en
-      surname:
-        content: Voyer
-        language:
-        - en
-      completename:
-        content: Daniel Voyer
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - content: Bell Canada
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Mach
+        - content: Mike
           language:
           - en
         - language:
@@ -123,91 +67,173 @@ contributor:
           language:
           - en
       surname:
-        content: Chen
+        content: McBride
         language:
         - en
       completename:
-        content: Mach Chen
+        content: Mike McBride
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Huawei
+        - content: Futurewei
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Bart
+        - content: Aijun
           language:
           - en
         - language:
           - en
-          initial: B
+          initial: A
         formatted_initials:
-          content: B.
+          content: A.
           language:
           - en
       surname:
-        content: Janssens
+        content: Wang
         language:
         - en
       completename:
-        content: Bart Janssens
+        content: Aijun Wang
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Colt
+        - content: China Telecom
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Richard
+        - content: Gyan
           language:
           - en
         - language:
           - en
-          initial: R
+          initial: G
         - language:
           - en
-          initial: F
+          initial: S
         formatted_initials:
-          content: R. F.
+          content: G. S.
           language:
           - en
       surname:
-        content: Foote
+        content: Mishra
         language:
         - en
       completename:
-        content: Richard "Footer" Foote
+        content: Gyan Mishra
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Nokia
+        - content: Verizon Inc.
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Yanhe
+          language:
+          - en
+        - language:
+          - en
+          initial: Y
+        formatted_initials:
+          content: Y.
+          language:
+          - en
+      surname:
+        content: Fan
+        language:
+        - en
+      completename:
+        content: Yanhe Fan
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Casa Systems
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Lei
+          language:
+          - en
+        - language:
+          - en
+          initial: L
+        formatted_initials:
+          content: L.
+          language:
+          - en
+      surname:
+        content: Liu
+        language:
+        - en
+      completename:
+        content: Lei Liu
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Fujitsu
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Xufeng
+          language:
+          - en
+        - language:
+          - en
+          initial: X
+        formatted_initials:
+          content: X.
+          language:
+          - en
+      surname:
+        content: Liu
+        language:
+        - en
+      completename:
+        content: Xufeng Liu
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Alef Edge
   role:
   - type: author
 version:
-- draft: '15'
-revdate: '2023-06-22'
+- draft: '08'
+revdate: '2023-07-06'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>Segment Routing (SR) leverages the source routing paradigm. SR is applicable
-    to both Multiprotocol Label Switching (SR-MPLS) and IPv6 (SRv6) forwarding planes.
-    This document specifies RFC 8762 (Simple Two-Way Active Measurement Protocol (STAMP))
-    extensions for SR networks, for both SR-MPLS and SRv6 forwarding planes by augmenting
-    the optional extensions defined in RFC 8972.</p>"
+- content: <p>This document describes IS-IS extensions for distributing the BitPositions
+    configured on a Bit-Forwarding Router (BFR) in a "Bit Index Explicit Replication
+    Traffic Engineering" (BIER-TE) domain.</p>
   language:
   - en
   script:
@@ -216,23 +242,13 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-ietf-ippm-stamp-srpm-11
+    id: draft-ietf-bier-te-isis-03
     docid:
-    - id: draft-ietf-ippm-stamp-srpm-11
+    - id: draft-ietf-bier-te-isis-03
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-ietf-ippm-stamp-srpm-11
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-ietf-ippm-stamp-srpm-16
-    docid:
-    - id: draft-ietf-ippm-stamp-srpm-16
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-ietf-ippm-stamp-srpm-16
+      content: draft-ietf-bier-te-isis-03
       format: text/plain
 series:
 - type: main
@@ -243,7 +259,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-ippm-stamp-srpm-15
+  number: draft-ietf-bier-te-isis-08
 doctype: internet-draft
 ext:
   schema-version: v1.0.0
