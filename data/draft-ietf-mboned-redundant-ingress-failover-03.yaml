@@ -1,29 +1,57 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-rift-yang-07
+id: draft-ietf-mboned-redundant-ingress-failover-03
 title:
-- content: A YANG Data Model for Routing in Fat Trees (RIFT)
+- content: Multicast Redundant Ingress Router Failover
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-rift-yang-07
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-mboned-redundant-ingress-failover-03
   type: src
 type: standard
 docid:
-- id: draft-ietf-rift-yang-07
+- id: draft-ietf-mboned-redundant-ingress-failover-03
   type: Internet-Draft
   primary: true
-- id: I-D.ietf-rift-yang
+- id: I-D.ietf-mboned-redundant-ingress-failover
   type: IETF
   scope: anchor
-docnumber: I-D.ietf-rift-yang
+docnumber: I-D.ietf-mboned-redundant-ingress-failover
 date:
 - type: published
-  value: '2023-06-09'
+  value: '2023-07-05'
 contributor:
+- person:
+    name:
+      given:
+        forename:
+        - content: Greg
+          language:
+          - en
+        - language:
+          - en
+          initial: G
+        formatted_initials:
+          content: G.
+          language:
+          - en
+      surname:
+        content: Shepherd
+        language:
+        - en
+      completename:
+        content: Greg Shepherd
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Cisco Systems, Inc.
+  role:
+  - type: author
 - person:
     name:
       given:
@@ -56,7 +84,7 @@ contributor:
     name:
       given:
         forename:
-        - content: Yuehua
+        - content: Yisong
           language:
           - en
         - language:
@@ -67,113 +95,90 @@ contributor:
           language:
           - en
       surname:
-        content: Wei
-        language:
-        - en
-      completename:
-        content: Yuehua Wei
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - content: ZTE Corporation
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Shaowen
-          language:
-          - en
-        - language:
-          - en
-          initial: S
-        formatted_initials:
-          content: S.
-          language:
-          - en
-      surname:
-        content: Ma
-        language:
-        - en
-      completename:
-        content: Shaowen Ma
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - content: Google
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Xufeng
-          language:
-          - en
-        - language:
-          - en
-          initial: X
-        formatted_initials:
-          content: X.
-          language:
-          - en
-      surname:
         content: Liu
         language:
         - en
       completename:
-        content: Xufeng Liu
+        content: Yisong Liu
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: IBM Corporation
+        - content: China Mobile
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Bruno
+        - content: Ying
           language:
           - en
         - language:
           - en
-          initial: B
+          initial: Y
         formatted_initials:
-          content: B.
+          content: Y.
           language:
           - en
       surname:
-        content: Rijsman
+        content: Cheng
         language:
         - en
       completename:
-        content: Bruno Rijsman
+        content: Ying Cheng
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Individual
+        - content: China Unicom
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Gyan
+          language:
+          - en
+        - language:
+          - en
+          initial: G
+        - language:
+          - en
+          initial: S
+        formatted_initials:
+          content: G. S.
+          language:
+          - en
+      surname:
+        content: Mishra
+        language:
+        - en
+      completename:
+        content: Gyan Mishra
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Verizon Inc.
   role:
   - type: author
 version:
-- draft: '07'
-revdate: '2023-06-09'
+- draft: '03'
+revdate: '2023-07-05'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document defines a YANG data model for the configuration and management
-    of Routing in Fat Trees (RIFT) Protocol.</p>"
+- content: "<p>This document discusses multicast redundant ingress router failover
+    issues, include global multicast and Service Provider Network MVPN use case. This
+    document analyzes specification of global multicast and Multicast VPN Fast Upstream
+    Failover and the Ingress PE Standby Modes and the benefits of each mode.</p>"
   language:
   - en
   script:
@@ -182,23 +187,13 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-ietf-rift-yang-03
+    id: draft-ietf-mboned-redundant-ingress-failover-01
     docid:
-    - id: draft-ietf-rift-yang-03
+    - id: draft-ietf-mboned-redundant-ingress-failover-01
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-ietf-rift-yang-03
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-ietf-rift-yang-08
-    docid:
-    - id: draft-ietf-rift-yang-08
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-ietf-rift-yang-08
+      content: draft-ietf-mboned-redundant-ingress-failover-01
       format: text/plain
 series:
 - type: main
@@ -209,7 +204,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-rift-yang-07
+  number: draft-ietf-mboned-redundant-ingress-failover-03
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

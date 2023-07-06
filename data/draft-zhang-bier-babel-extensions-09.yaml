@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-zhang-bier-babel-extensions-08
+id: draft-zhang-bier-babel-extensions-09
 title:
 - content: BIER in BABEL
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-zhang-bier-babel-extensions-08
+- content: https://datatracker.ietf.org/doc/html/draft-zhang-bier-babel-extensions-09
   type: src
 type: standard
 docid:
-- id: draft-zhang-bier-babel-extensions-08
+- id: draft-zhang-bier-babel-extensions-09
   type: Internet-Draft
   primary: true
 - id: I-D.zhang-bier-babel-extensions
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.zhang-bier-babel-extensions
 date:
 - type: published
-  value: '2023-01-04'
+  value: '2023-07-05'
 contributor:
 - person:
     name:
@@ -81,8 +81,8 @@ contributor:
   role:
   - type: author
 version:
-- draft: '08'
-revdate: '2023-01-04'
+- draft: '09'
+revdate: '2023-07-05'
 language:
 - en
 script:
@@ -110,16 +110,6 @@ relation:
     formattedref:
       content: draft-zhang-bier-babel-extensions-06
       format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-zhang-bier-babel-extensions-09
-    docid:
-    - id: draft-zhang-bier-babel-extensions-09
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-zhang-bier-babel-extensions-09
-      format: text/plain
 series:
 - type: main
   title:
@@ -129,7 +119,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-zhang-bier-babel-extensions-08
+  number: draft-zhang-bier-babel-extensions-09
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

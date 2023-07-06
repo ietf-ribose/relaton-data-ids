@@ -1,118 +1,90 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-rift-yang-07
+id: draft-ietf-bfd-unaffiliated-echo-08
 title:
-- content: A YANG Data Model for Routing in Fat Trees (RIFT)
+- content: Unaffiliated BFD Echo
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-rift-yang-07
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-bfd-unaffiliated-echo-08
   type: src
 type: standard
 docid:
-- id: draft-ietf-rift-yang-07
+- id: draft-ietf-bfd-unaffiliated-echo-08
   type: Internet-Draft
   primary: true
-- id: I-D.ietf-rift-yang
+- id: I-D.ietf-bfd-unaffiliated-echo
   type: IETF
   scope: anchor
-docnumber: I-D.ietf-rift-yang
+docnumber: I-D.ietf-bfd-unaffiliated-echo
 date:
 - type: published
-  value: '2023-06-09'
+  value: '2023-07-05'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Zheng
+        - content: Weiqiang
           language:
           - en
         - language:
           - en
-          initial: Z
+          initial: W
         formatted_initials:
-          content: Z.
+          content: W.
           language:
           - en
       surname:
-        content: Zhang
+        content: Cheng
         language:
         - en
       completename:
-        content: Zheng Zhang
+        content: Weiqiang Cheng
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: ZTE Corporation
+        - content: China Mobile
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Yuehua
+        - content: Ruixue
           language:
           - en
         - language:
           - en
-          initial: Y
+          initial: R
         formatted_initials:
-          content: Y.
+          content: R.
           language:
           - en
       surname:
-        content: Wei
+        content: Wang
         language:
         - en
       completename:
-        content: Yuehua Wei
+        content: Ruixue Wang
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: ZTE Corporation
+        - content: China Mobile
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Shaowen
-          language:
-          - en
-        - language:
-          - en
-          initial: S
-        formatted_initials:
-          content: S.
-          language:
-          - en
-      surname:
-        content: Ma
-        language:
-        - en
-      completename:
-        content: Shaowen Ma
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - content: Google
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Xufeng
+        - content: Xiao
           language:
           - en
         - language:
@@ -123,57 +95,92 @@ contributor:
           language:
           - en
       surname:
-        content: Liu
+        content: Min
         language:
         - en
       completename:
-        content: Xufeng Liu
+        content: Xiao Min
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: IBM Corporation
+        - content: ZTE Corp.
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Bruno
+        - content: Reshad
           language:
           - en
         - language:
           - en
-          initial: B
+          initial: R
         formatted_initials:
-          content: B.
+          content: R.
           language:
           - en
       surname:
-        content: Rijsman
+        content: Rahman
         language:
         - en
       completename:
-        content: Bruno Rijsman
+        content: Reshad Rahman
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Individual
+        - content: Graphiant
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Raj
+          language:
+          - en
+        - language:
+          - en
+          initial: R
+        - language:
+          - en
+          initial: C
+        formatted_initials:
+          content: R. C.
+          language:
+          - en
+      surname:
+        content: Boddireddy
+        language:
+        - en
+      completename:
+        content: Raj Chetan Boddireddy
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Juniper Networks
   role:
   - type: author
 version:
-- draft: '07'
-revdate: '2023-06-09'
+- draft: '08'
+revdate: '2023-07-05'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document defines a YANG data model for the configuration and management
-    of Routing in Fat Trees (RIFT) Protocol.</p>"
+- content: "<p>Bidirectional Forwarding Detection (BFD) is a fault detection protocol
+    that can quickly determine a communication failure between two forwarding engines.
+    This document proposes a use of the BFD Echo where the local system supports BFD
+    but the neighboring system does not support BFD. BFD Control packet and its processing
+    procedures can be executed over the BFD Echo port where the neighboring system
+    only loops packets back to the local system. This document updates RFC 5880.</p>"
   language:
   - en
   script:
@@ -182,23 +189,13 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-ietf-rift-yang-03
+    id: draft-ietf-bfd-unaffiliated-echo-07
     docid:
-    - id: draft-ietf-rift-yang-03
+    - id: draft-ietf-bfd-unaffiliated-echo-07
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-ietf-rift-yang-03
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-ietf-rift-yang-08
-    docid:
-    - id: draft-ietf-rift-yang-08
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-ietf-rift-yang-08
+      content: draft-ietf-bfd-unaffiliated-echo-07
       format: text/plain
 series:
 - type: main
@@ -209,7 +206,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-rift-yang-07
+  number: draft-ietf-bfd-unaffiliated-echo-08
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

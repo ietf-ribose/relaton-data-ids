@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-teep-usecase-for-cc-in-network-03
+id: draft-ietf-teep-usecase-for-cc-in-network-04
 title:
 - content: TEEP Usecase for Confidential Computing in Network
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-teep-usecase-for-cc-in-network-03
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-teep-usecase-for-cc-in-network-04
   type: src
 type: standard
 docid:
-- id: draft-ietf-teep-usecase-for-cc-in-network-03
+- id: draft-ietf-teep-usecase-for-cc-in-network-04
   type: Internet-Draft
   primary: true
 - id: I-D.ietf-teep-usecase-for-cc-in-network
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.ietf-teep-usecase-for-cc-in-network
 date:
 - type: published
-  value: '2023-04-17'
+  value: '2023-07-05'
 contributor:
 - person:
     name:
@@ -126,8 +126,8 @@ contributor:
   role:
   - type: author
 version:
-- draft: '03'
-revdate: '2023-04-17'
+- draft: '04'
+revdate: '2023-07-05'
 language:
 - en
 script:
@@ -159,16 +159,6 @@ relation:
     formattedref:
       content: draft-ietf-teep-usecase-for-cc-in-network-01
       format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-ietf-teep-usecase-for-cc-in-network-04
-    docid:
-    - id: draft-ietf-teep-usecase-for-cc-in-network-04
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-ietf-teep-usecase-for-cc-in-network-04
-      format: text/plain
 series:
 - type: main
   title:
@@ -178,7 +168,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-teep-usecase-for-cc-in-network-03
+  number: draft-ietf-teep-usecase-for-cc-in-network-04
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

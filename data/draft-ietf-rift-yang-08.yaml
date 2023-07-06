@@ -1,19 +1,19 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-rift-yang-07
+id: draft-ietf-rift-yang-08
 title:
-- content: A YANG Data Model for Routing in Fat Trees (RIFT)
+- content: YANG Data Model for Routing in Fat Trees (RIFT)
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-rift-yang-07
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-rift-yang-08
   type: src
 type: standard
 docid:
-- id: draft-ietf-rift-yang-07
+- id: draft-ietf-rift-yang-08
   type: Internet-Draft
   primary: true
 - id: I-D.ietf-rift-yang
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.ietf-rift-yang
 date:
 - type: published
-  value: '2023-06-09'
+  value: '2023-07-05'
 contributor:
 - person:
     name:
@@ -165,15 +165,17 @@ contributor:
   role:
   - type: author
 version:
-- draft: '07'
-revdate: '2023-06-09'
+- draft: '08'
+revdate: '2023-07-05'
 language:
 - en
 script:
 - Latn
 abstract:
 - content: "<p>This document defines a YANG data model for the configuration and management
-    of Routing in Fat Trees (RIFT) Protocol.</p>"
+    of Routing in Fat Trees (RIFT) Protocol. The model is based on YANG 1.1 as defined
+    in RFC7950 and conforms to the Network Management Datastore Architecture (NMDA)
+    as described in RFC8342.</p>"
   language:
   - en
   script:
@@ -190,16 +192,6 @@ relation:
     formattedref:
       content: draft-ietf-rift-yang-03
       format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-ietf-rift-yang-08
-    docid:
-    - id: draft-ietf-rift-yang-08
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-ietf-rift-yang-08
-      format: text/plain
 series:
 - type: main
   title:
@@ -209,7 +201,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-rift-yang-07
+  number: draft-ietf-rift-yang-08
 doctype: internet-draft
 ext:
   schema-version: v1.0.0
