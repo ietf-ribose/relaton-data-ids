@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-kaliraj-idr-multinexthop-attribute-06
+id: draft-kaliraj-idr-multinexthop-attribute-07
 title:
 - content: BGP MultiNexthop Attribute
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-kaliraj-idr-multinexthop-attribute-06
+- content: https://datatracker.ietf.org/doc/html/draft-kaliraj-idr-multinexthop-attribute-07
   type: src
 type: standard
 docid:
-- id: draft-kaliraj-idr-multinexthop-attribute-06
+- id: draft-kaliraj-idr-multinexthop-attribute-07
   type: Internet-Draft
   primary: true
 - id: I-D.kaliraj-idr-multinexthop-attribute
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.kaliraj-idr-multinexthop-attribute
 date:
 - type: published
-  value: '2023-06-17'
+  value: '2023-07-05'
 contributor:
 - person:
     name:
@@ -83,40 +83,9 @@ contributor:
         - content: Juniper Networks, Inc.
   role:
   - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Gyan
-          language:
-          - en
-        - language:
-          - en
-          initial: G
-        - language:
-          - en
-          initial: S
-        formatted_initials:
-          content: G. S.
-          language:
-          - en
-      surname:
-        content: Mishra
-        language:
-        - en
-      completename:
-        content: Gyan Mishra
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - content: Verizon Communications Inc.
-  role:
-  - type: author
 version:
-- draft: '06'
-revdate: '2023-06-17'
+- draft: '07'
+revdate: '2023-07-05'
 language:
 - en
 script:
@@ -145,16 +114,6 @@ relation:
     formattedref:
       content: draft-kaliraj-idr-multinexthop-attribute-00
       format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-kaliraj-idr-multinexthop-attribute-07
-    docid:
-    - id: draft-kaliraj-idr-multinexthop-attribute-07
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-kaliraj-idr-multinexthop-attribute-07
-      format: text/plain
 series:
 - type: main
   title:
@@ -164,7 +123,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-kaliraj-idr-multinexthop-attribute-06
+  number: draft-kaliraj-idr-multinexthop-attribute-07
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

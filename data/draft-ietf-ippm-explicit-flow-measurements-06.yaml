@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-ippm-explicit-flow-measurements-05
+id: draft-ietf-ippm-explicit-flow-measurements-06
 title:
 - content: Explicit Host-to-Network Flow Measurements Techniques
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-ippm-explicit-flow-measurements-05
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-ippm-explicit-flow-measurements-06
   type: src
 type: standard
 docid:
-- id: draft-ietf-ippm-explicit-flow-measurements-05
+- id: draft-ietf-ippm-explicit-flow-measurements-06
   type: Internet-Draft
   primary: true
 - id: I-D.ietf-ippm-explicit-flow-measurements
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.ietf-ippm-explicit-flow-measurements
 date:
 - type: published
-  value: '2023-06-30'
+  value: '2023-07-06'
 contributor:
 - person:
     name:
@@ -249,8 +249,8 @@ contributor:
   role:
   - type: author
 version:
-- draft: '05'
-revdate: '2023-06-30'
+- draft: '06'
+revdate: '2023-07-06'
 language:
 - en
 script:
@@ -282,16 +282,6 @@ relation:
     formattedref:
       content: draft-ietf-ippm-explicit-flow-measurements-00
       format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-ietf-ippm-explicit-flow-measurements-06
-    docid:
-    - id: draft-ietf-ippm-explicit-flow-measurements-06
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-ietf-ippm-explicit-flow-measurements-06
-      format: text/plain
 series:
 - type: main
   title:
@@ -301,7 +291,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-ippm-explicit-flow-measurements-05
+  number: draft-ietf-ippm-explicit-flow-measurements-06
 doctype: internet-draft
 ext:
   schema-version: v1.0.0
