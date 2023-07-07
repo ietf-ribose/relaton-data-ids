@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-collink-6man-pio-pflag-00
+id: draft-collink-6man-pio-pflag-01
 title:
 - content: Signalling DHCPv6 Prefix Delegation Availability to Hosts
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-collink-6man-pio-pflag-00
+- content: https://datatracker.ietf.org/doc/html/draft-collink-6man-pio-pflag-01
   type: src
 type: standard
 docid:
-- id: draft-collink-6man-pio-pflag-00
+- id: draft-collink-6man-pio-pflag-01
   type: Internet-Draft
   primary: true
 - id: I-D.collink-6man-pio-pflag
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.collink-6man-pio-pflag
 date:
 - type: published
-  value: '2023-03-27'
+  value: '2023-07-06'
 contributor:
 - person:
     name:
@@ -49,7 +49,7 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Google, LLC
+        - content: Google
   role:
   - type: author
 - person:
@@ -80,9 +80,65 @@ contributor:
         - content: Google
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Xiao
+          language:
+          - en
+        - language:
+          - en
+          initial: X
+        formatted_initials:
+          content: X.
+          language:
+          - en
+      surname:
+        content: Ma
+        language:
+        - en
+      completename:
+        content: Xiao Ma
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Google
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: David
+          language:
+          - en
+        - language:
+          - en
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+      surname:
+        content: Lamparter
+        language:
+        - en
+      completename:
+        content: David Lamparter
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: NetDEF, Inc.
+  role:
+  - type: author
 version:
-- draft: '00'
-revdate: '2023-03-27'
+- draft: '01'
+revdate: '2023-07-06'
 language:
 - en
 script:
@@ -98,15 +154,15 @@ abstract:
   - Latn
   format: text/html
 relation:
-- type: updatedBy
+- type: updates
   bibitem:
-    id: draft-collink-6man-pio-pflag-01
+    id: draft-collink-6man-pio-pflag-00
     docid:
-    - id: draft-collink-6man-pio-pflag-01
+    - id: draft-collink-6man-pio-pflag-00
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-collink-6man-pio-pflag-01
+      content: draft-collink-6man-pio-pflag-00
       format: text/plain
 series:
 - type: main
@@ -117,7 +173,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-collink-6man-pio-pflag-00
+  number: draft-collink-6man-pio-pflag-01
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-sajassi-bess-evpn-ip-aliasing-06
+id: draft-sajassi-bess-evpn-ip-aliasing-07
 title:
 - content: EVPN Support for L3 Fast Convergence and Aliasing/Backup Path
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-sajassi-bess-evpn-ip-aliasing-06
+- content: https://datatracker.ietf.org/doc/html/draft-sajassi-bess-evpn-ip-aliasing-07
   type: src
 type: standard
 docid:
-- id: draft-sajassi-bess-evpn-ip-aliasing-06
+- id: draft-sajassi-bess-evpn-ip-aliasing-07
   type: Internet-Draft
   primary: true
 - id: I-D.sajassi-bess-evpn-ip-aliasing
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.sajassi-bess-evpn-ip-aliasing
 date:
 - type: published
-  value: '2023-01-10'
+  value: '2023-07-06'
 contributor:
 - person:
     name:
@@ -218,8 +218,8 @@ contributor:
   role:
   - type: author
 version:
-- draft: '06'
-revdate: '2023-01-10'
+- draft: '07'
+revdate: '2023-07-06'
 language:
 - en
 script:
@@ -245,16 +245,6 @@ relation:
     formattedref:
       content: draft-sajassi-bess-evpn-ip-aliasing-02
       format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-sajassi-bess-evpn-ip-aliasing-07
-    docid:
-    - id: draft-sajassi-bess-evpn-ip-aliasing-07
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-sajassi-bess-evpn-ip-aliasing-07
-      format: text/plain
 series:
 - type: main
   title:
@@ -264,7 +254,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-sajassi-bess-evpn-ip-aliasing-06
+  number: draft-sajassi-bess-evpn-ip-aliasing-07
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

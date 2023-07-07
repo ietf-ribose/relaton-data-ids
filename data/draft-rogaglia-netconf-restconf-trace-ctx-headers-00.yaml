@@ -1,28 +1,28 @@
 ---
 schema-version: v1.2.3
-id: draft-rogaglia-netconf-trace-ctx-extension-02
+id: draft-rogaglia-netconf-restconf-trace-ctx-headers-00
 title:
-- content: NETCONF Extension to support Trace Context propagation
+- content: RESTCONF Extension to support Trace Context Headers
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-rogaglia-netconf-trace-ctx-extension-02
+- content: https://datatracker.ietf.org/doc/html/draft-rogaglia-netconf-restconf-trace-ctx-headers-00
   type: src
 type: standard
 docid:
-- id: draft-rogaglia-netconf-trace-ctx-extension-02
+- id: draft-rogaglia-netconf-restconf-trace-ctx-headers-00
   type: Internet-Draft
   primary: true
-- id: I-D.rogaglia-netconf-trace-ctx-extension
+- id: I-D.rogaglia-netconf-restconf-trace-ctx-headers
   type: IETF
   scope: anchor
-docnumber: I-D.rogaglia-netconf-trace-ctx-extension
+docnumber: I-D.rogaglia-netconf-restconf-trace-ctx-headers
 date:
 - type: published
-  value: '2023-03-13'
+  value: '2023-07-06'
 contributor:
 - person:
     name:
@@ -109,42 +109,20 @@ contributor:
   role:
   - type: author
 version:
-- draft: '02'
-revdate: '2023-03-13'
+- draft: '00'
+revdate: '2023-07-06'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document defines how to propagate trace context information across
-    the Network Configuration Protocol (NETCONF), that enables distributed tracing
-    scenarios. It is an adaption of the HTTP-based W3C specification.</p>"
+- content: "<p>This document extends the RESTCONF protocol in order to support trace
+    context propagation as defined by the W3C.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: updates
-  bibitem:
-    id: draft-rogaglia-netconf-trace-ctx-extension-00
-    docid:
-    - id: draft-rogaglia-netconf-trace-ctx-extension-00
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-rogaglia-netconf-trace-ctx-extension-00
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-rogaglia-netconf-trace-ctx-extension-03
-    docid:
-    - id: draft-rogaglia-netconf-trace-ctx-extension-03
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-rogaglia-netconf-trace-ctx-extension-03
-      format: text/plain
 series:
 - type: main
   title:
@@ -154,7 +132,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-rogaglia-netconf-trace-ctx-extension-02
+  number: draft-rogaglia-netconf-restconf-trace-ctx-headers-00
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

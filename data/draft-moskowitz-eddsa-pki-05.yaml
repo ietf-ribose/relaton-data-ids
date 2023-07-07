@@ -1,34 +1,34 @@
 ---
 schema-version: v1.2.3
-id: draft-rogaglia-netconf-trace-ctx-extension-02
+id: draft-moskowitz-eddsa-pki-05
 title:
-- content: NETCONF Extension to support Trace Context propagation
+- content: Guide for building an EdDSA PKI
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-rogaglia-netconf-trace-ctx-extension-02
+- content: https://datatracker.ietf.org/doc/html/draft-moskowitz-eddsa-pki-05
   type: src
 type: standard
 docid:
-- id: draft-rogaglia-netconf-trace-ctx-extension-02
+- id: draft-moskowitz-eddsa-pki-05
   type: Internet-Draft
   primary: true
-- id: I-D.rogaglia-netconf-trace-ctx-extension
+- id: I-D.moskowitz-eddsa-pki
   type: IETF
   scope: anchor
-docnumber: I-D.rogaglia-netconf-trace-ctx-extension
+docnumber: I-D.moskowitz-eddsa-pki
 date:
 - type: published
-  value: '2023-03-13'
+  value: '2023-07-06'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Roque
+        - content: Robert
           language:
           - en
         - language:
@@ -39,86 +39,87 @@ contributor:
           language:
           - en
       surname:
-        content: Gagliano
+        content: Moskowitz
         language:
         - en
       completename:
-        content: Roque Gagliano
+        content: Robert Moskowitz
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Cisco Systems
+        - content: HTT Consulting
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Kristian
+        - content: Henk
           language:
           - en
         - language:
           - en
-          initial: K
+          initial: H
         formatted_initials:
-          content: K.
+          content: H.
           language:
           - en
       surname:
-        content: Larsson
+        content: Birkholz
         language:
         - en
       completename:
-        content: Kristian Larsson
+        content: Henk Birkholz
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Deutsche Telekom AG
+        - content: Fraunhofer SIT
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Jan
+        - content: Michael
           language:
           - en
         - language:
           - en
-          initial: J
+          initial: M
         formatted_initials:
-          content: J.
+          content: M.
           language:
           - en
       surname:
-        content: Lindblad
+        content: Richardson
         language:
         - en
       completename:
-        content: Jan Lindblad
+        content: Michael Richardson
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Cisco Systems
+        - content: Sandelman Software Works
   role:
   - type: author
 version:
-- draft: '02'
-revdate: '2023-03-13'
+- draft: '05'
+revdate: '2023-07-06'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document defines how to propagate trace context information across
-    the Network Configuration Protocol (NETCONF), that enables distributed tracing
-    scenarios. It is an adaption of the HTTP-based W3C specification.</p>"
+- content: "<p>This memo provides a guide for building a PKI (Public Key Infrastructure)
+    using openSSL. Certificates in this guide can be either ED25519 or ED448 certificates.
+    Along with common End Entity certificates, this guide provides instructions for
+    creating IEEE 802.1AR iDevID Secure Device certificates.</p>"
   language:
   - en
   script:
@@ -127,23 +128,13 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-rogaglia-netconf-trace-ctx-extension-00
+    id: draft-moskowitz-eddsa-pki-04
     docid:
-    - id: draft-rogaglia-netconf-trace-ctx-extension-00
+    - id: draft-moskowitz-eddsa-pki-04
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-rogaglia-netconf-trace-ctx-extension-00
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-rogaglia-netconf-trace-ctx-extension-03
-    docid:
-    - id: draft-rogaglia-netconf-trace-ctx-extension-03
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-rogaglia-netconf-trace-ctx-extension-03
+      content: draft-moskowitz-eddsa-pki-04
       format: text/plain
 series:
 - type: main
@@ -154,7 +145,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-rogaglia-netconf-trace-ctx-extension-02
+  number: draft-moskowitz-eddsa-pki-05
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

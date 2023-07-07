@@ -1,19 +1,19 @@
 ---
 schema-version: v1.2.3
-id: draft-dunbar-cats-edge-service-metrics-00
+id: draft-dunbar-cats-edge-service-metrics-01
 title:
-- content: IP Layer Metrics for Edge Services
+- content: 5G Edge Services Use Cases
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-dunbar-cats-edge-service-metrics-00
+- content: https://datatracker.ietf.org/doc/html/draft-dunbar-cats-edge-service-metrics-01
   type: src
 type: standard
 docid:
-- id: draft-dunbar-cats-edge-service-metrics-00
+- id: draft-dunbar-cats-edge-service-metrics-01
   type: Internet-Draft
   primary: true
 - id: I-D.dunbar-cats-edge-service-metrics
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.dunbar-cats-edge-service-metrics
 date:
 - type: published
-  value: '2023-04-25'
+  value: '2023-07-06'
 contributor:
 - person:
     name:
@@ -108,7 +108,35 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Verizon
+        - content: Huawei
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Haibo
+          language:
+          - en
+        - language:
+          - en
+          initial: H
+        formatted_initials:
+          content: H.
+          language:
+          - en
+      surname:
+        content: Wang
+        language:
+        - en
+      completename:
+        content: Haibo Wang
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Huawei
   role:
   - type: author
 - person:
@@ -140,32 +168,35 @@ contributor:
   role:
   - type: author
 version:
-- draft: '00'
-revdate: '2023-04-25'
+- draft: '01'
+revdate: '2023-07-06'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This draft describes the IP Layer metrics and methods to measure the
-    Edge Services' running status and environment for IP network to dynamically optimize
-    the forwarding of low latency edge services without any knowledge above the IP
-    layer.</p>"
+- content: "<p>This draft describes the 5G Edge computing use cases for CATS and how
+    BGP can be used to propagate additional IP layer detectable information about
+    the 5G edge data centers so that the ingress routers in the 5G Local Data Network
+    can make path selections based on not only the routing distance but also the IP
+    Layer relevant metrics of the destinations. The goal is to improve latency and
+    performance for 5G Edge Computing (EC) services even when the detailed servers
+    running status are unavailable.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: updatedBy
+- type: updates
   bibitem:
-    id: draft-dunbar-cats-edge-service-metrics-01
+    id: draft-dunbar-cats-edge-service-metrics-00
     docid:
-    - id: draft-dunbar-cats-edge-service-metrics-01
+    - id: draft-dunbar-cats-edge-service-metrics-00
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-dunbar-cats-edge-service-metrics-01
+      content: draft-dunbar-cats-edge-service-metrics-00
       format: text/plain
 series:
 - type: main
@@ -176,7 +207,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-dunbar-cats-edge-service-metrics-00
+  number: draft-dunbar-cats-edge-service-metrics-01
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

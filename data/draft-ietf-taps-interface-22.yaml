@@ -1,118 +1,90 @@
 ---
 schema-version: v1.2.3
-id: draft-sidor-pce-circuit-style-pcep-extensions-03
+id: draft-ietf-taps-interface-22
 title:
-- content: PCEP extensions for Circuit Style Policies
+- content: An Abstract Application Layer Interface to Transport Services
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-sidor-pce-circuit-style-pcep-extensions-03
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-taps-interface-22
   type: src
 type: standard
 docid:
-- id: draft-sidor-pce-circuit-style-pcep-extensions-03
+- id: draft-ietf-taps-interface-22
   type: Internet-Draft
   primary: true
-- id: I-D.sidor-pce-circuit-style-pcep-extensions
+- id: I-D.ietf-taps-interface
   type: IETF
   scope: anchor
-docnumber: I-D.sidor-pce-circuit-style-pcep-extensions
+docnumber: I-D.ietf-taps-interface
 date:
 - type: published
-  value: '2023-01-09'
+  value: '2023-07-06'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Samuel
+        - content: Brian
           language:
           - en
         - language:
           - en
-          initial: S
+          initial: B
         formatted_initials:
-          content: S.
+          content: B.
           language:
           - en
       surname:
-        content: Sidor
+        content: Trammell
         language:
         - en
       completename:
-        content: Samuel Sidor
+        content: Brian Trammell
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Cisco Systems, Inc.
+        - content: Google Switzerland GmbH
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Zafar
+        - content: Michael
           language:
           - en
         - language:
           - en
-          initial: Z
+          initial: M
         formatted_initials:
-          content: Z.
+          content: M.
           language:
           - en
       surname:
-        content: Ali
+        content: Welzl
         language:
         - en
       completename:
-        content: Zafar Ali
+        content: Michael Welzl
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Cisco Systems, Inc.
+        - content: University of Oslo
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Praveen
-          language:
-          - en
-        - language:
-          - en
-          initial: P
-        formatted_initials:
-          content: P.
-          language:
-          - en
-      surname:
-        content: Maheshwari
-        language:
-        - en
-      completename:
-        content: Praveen Maheshwari
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - content: Airtel India
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Reza
+        - content: Reese
           language:
           - en
         - language:
@@ -123,108 +95,139 @@ contributor:
           language:
           - en
       surname:
-        content: Rokui
+        content: Enghardt
         language:
         - en
       completename:
-        content: Reza Rokui
+        content: Reese Enghardt
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Ciena
+        - content: Netflix
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Andrew
+        - content: Gorry
           language:
           - en
         - language:
           - en
-          initial: A
+          initial: G
         formatted_initials:
-          content: A.
+          content: G.
           language:
           - en
       surname:
-        content: Stone
+        content: Fairhurst
         language:
         - en
       completename:
-        content: Andrew Stone
+        content: Gorry Fairhurst
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Nokia
+        - content: University of Aberdeen
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Luay
+        - content: Mirja
           language:
           - en
         - language:
           - en
-          initial: L
+          initial: M
         formatted_initials:
-          content: L.
+          content: M.
           language:
           - en
       surname:
-        content: Jalil
+        content: Kühlewind
         language:
         - en
       completename:
-        content: Luay Jalil
+        content: Mirja Kühlewind
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Verizon
+        - content: Ericsson
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Shuping
+        - content: Colin
           language:
           - en
+        - language:
+          - en
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+      surname:
+        content: Perkins
+        language:
+        - en
+      completename:
+        content: Colin Perkins
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: University of Glasgow
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Philipp
+          language:
+          - en
+        - language:
+          - en
+          initial: P
         - language:
           - en
           initial: S
         formatted_initials:
-          content: S.
+          content: P. S.
           language:
           - en
       surname:
-        content: Peng
+        content: Tiesel
         language:
         - en
       completename:
-        content: Shuping Peng
+        content: Philipp S. Tiesel
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Huawei Technologies
+        - content: SAP SE
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Tarek
+        - content: Tommy
           language:
           - en
         - language:
@@ -235,60 +238,35 @@ contributor:
           language:
           - en
       surname:
-        content: Saad
+        content: Pauly
         language:
         - en
       completename:
-        content: Tarek Saad
+        content: Tommy Pauly
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Juniper Networks
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Daniel
-          language:
-          - en
-        - language:
-          - en
-          initial: D
-        formatted_initials:
-          content: D.
-          language:
-          - en
-      surname:
-        content: Voyer
-        language:
-        - en
-      completename:
-        content: Daniel Voyer
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - content: Bell Canada
+        - content: Apple Inc.
   role:
   - type: author
 version:
-- draft: '03'
-revdate: '2023-01-09'
+- draft: '22'
+revdate: '2023-07-06'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document proposes a set of extensions for Path Computation Element
-    Communication Protocol (PCEP) for Circuit Style Policies - Segment-Routing Policy
-    designed to satisfy requirements for connection-oriented transport services. New
-    TLV is introduced to control path recomputation and new flag to add ability to
-    request path with strict hops only.</p>"
+- content: "<p>This document describes an abstract application programming interface,
+    API, to the transport layer that enables the selection of transport protocols
+    and network paths dynamically at runtime. This API enables faster deployment of
+    new protocols and protocol features without requiring changes to the applications.
+    The specified API follows the Transport Services architecture by providing asynchronous,
+    atomic transmission of messages. It is intended to replace the BSD sockets API
+    as the common interface to the transport layer, in an environment where endpoints
+    could select from multiple interfaces and potential transport protocols.</p>"
   language:
   - en
   script:
@@ -297,23 +275,13 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-sidor-pce-circuit-style-pcep-extensions-01
+    id: draft-ietf-taps-interface-17
     docid:
-    - id: draft-sidor-pce-circuit-style-pcep-extensions-01
+    - id: draft-ietf-taps-interface-17
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-sidor-pce-circuit-style-pcep-extensions-01
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-sidor-pce-circuit-style-pcep-extensions-04
-    docid:
-    - id: draft-sidor-pce-circuit-style-pcep-extensions-04
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-sidor-pce-circuit-style-pcep-extensions-04
+      content: draft-ietf-taps-interface-17
       format: text/plain
 series:
 - type: main
@@ -324,7 +292,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-sidor-pce-circuit-style-pcep-extensions-03
+  number: draft-ietf-taps-interface-22
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

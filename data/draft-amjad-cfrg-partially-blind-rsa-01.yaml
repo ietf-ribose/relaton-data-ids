@@ -1,90 +1,34 @@
 ---
 schema-version: v1.2.3
-id: draft-dunbar-cats-edge-service-metrics-00
+id: draft-amjad-cfrg-partially-blind-rsa-01
 title:
-- content: IP Layer Metrics for Edge Services
+- content: Partially Blind RSA Signatures
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-dunbar-cats-edge-service-metrics-00
+- content: https://datatracker.ietf.org/doc/html/draft-amjad-cfrg-partially-blind-rsa-01
   type: src
 type: standard
 docid:
-- id: draft-dunbar-cats-edge-service-metrics-00
+- id: draft-amjad-cfrg-partially-blind-rsa-01
   type: Internet-Draft
   primary: true
-- id: I-D.dunbar-cats-edge-service-metrics
+- id: I-D.amjad-cfrg-partially-blind-rsa
   type: IETF
   scope: anchor
-docnumber: I-D.dunbar-cats-edge-service-metrics
+docnumber: I-D.amjad-cfrg-partially-blind-rsa
 date:
 - type: published
-  value: '2023-04-25'
+  value: '2023-07-06'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Linda
-          language:
-          - en
-        - language:
-          - en
-          initial: L
-        formatted_initials:
-          content: L.
-          language:
-          - en
-      surname:
-        content: Dunbar
-        language:
-        - en
-      completename:
-        content: Linda Dunbar
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - content: Futurewei
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Kausik
-          language:
-          - en
-        - language:
-          - en
-          initial: K
-        formatted_initials:
-          content: K.
-          language:
-          - en
-      surname:
-        content: Majumdar
-        language:
-        - en
-      completename:
-        content: Kausik Majumdar
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - content: Microsoft
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Gyan
+        - content: Ghous
           language:
           - en
         - language:
@@ -92,80 +36,147 @@ contributor:
           initial: G
         - language:
           - en
-          initial: S
+          initial: A
         formatted_initials:
-          content: G. S.
+          content: G. A.
           language:
           - en
       surname:
-        content: Mishra
+        content: Amjad
         language:
         - en
       completename:
-        content: Gyan Mishra
+        content: Ghous A. Amjad
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Verizon
+        - content: Google
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Haoyu
+        - content: Scott
           language:
           - en
         - language:
           - en
-          initial: H
+          initial: S
         formatted_initials:
-          content: H.
+          content: S.
           language:
           - en
       surname:
-        content: Song
+        content: Hendrickson
         language:
         - en
       completename:
-        content: Haoyu Song
+        content: Scott Hendrickson
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Futurewei
+        - content: Google
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Christopher
+          language:
+          - en
+        - language:
+          - en
+          initial: C
+        - language:
+          - en
+          initial: A
+        formatted_initials:
+          content: C. A.
+          language:
+          - en
+      surname:
+        content: Wood
+        language:
+        - en
+      completename:
+        content: Christopher A. Wood
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Cloudflare
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Kevin
+          language:
+          - en
+        - language:
+          - en
+          initial: K
+        - language:
+          - en
+          initial: W
+        - language:
+          - en
+          initial: L
+        formatted_initials:
+          content: K. W. L.
+          language:
+          - en
+      surname:
+        content: Yeo
+        language:
+        - en
+      completename:
+        content: Kevin W. L. Yeo
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Google
   role:
   - type: author
 version:
-- draft: '00'
-revdate: '2023-04-25'
+- draft: '01'
+revdate: '2023-07-06'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This draft describes the IP Layer metrics and methods to measure the
-    Edge Services' running status and environment for IP network to dynamically optimize
-    the forwarding of low latency edge services without any knowledge above the IP
-    layer.</p>"
+- content: "<p>This document specifies a blind RSA signature protocol that supports
+    public metadata. It is an extension to the RSABSSA protocol recently specified
+    by the CFRG. Discussion Venues This note is to be removed before publishing as
+    an RFC. Discussion of this document takes place on the Crypto Forum Research Group
+    mailing list (cfrg@ietf.org), which is archived at https://mailarchive.ietf.org/arch/search/?email_list=cfrg.
+    Source for this draft and an issue tracker can be found at https://github.com/chris-wood/draft-amjad-cfrg-partially-blind-rsa.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: updatedBy
+- type: updates
   bibitem:
-    id: draft-dunbar-cats-edge-service-metrics-01
+    id: draft-amjad-cfrg-partially-blind-rsa-00
     docid:
-    - id: draft-dunbar-cats-edge-service-metrics-01
+    - id: draft-amjad-cfrg-partially-blind-rsa-00
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-dunbar-cats-edge-service-metrics-01
+      content: draft-amjad-cfrg-partially-blind-rsa-00
       format: text/plain
 series:
 - type: main
@@ -176,7 +187,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-dunbar-cats-edge-service-metrics-00
+  number: draft-amjad-cfrg-partially-blind-rsa-01
 doctype: internet-draft
 ext:
   schema-version: v1.0.0
