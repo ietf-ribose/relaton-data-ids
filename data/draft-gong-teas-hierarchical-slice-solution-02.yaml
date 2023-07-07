@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-gong-teas-hierarchical-slice-solution-01
+id: draft-gong-teas-hierarchical-slice-solution-02
 title:
 - content: Segment Routing based Solution for Hierarchical IETF Network Slices
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-gong-teas-hierarchical-slice-solution-01
+- content: https://datatracker.ietf.org/doc/html/draft-gong-teas-hierarchical-slice-solution-02
   type: src
 type: standard
 docid:
-- id: draft-gong-teas-hierarchical-slice-solution-01
+- id: draft-gong-teas-hierarchical-slice-solution-02
   type: Internet-Draft
   primary: true
 - id: I-D.gong-teas-hierarchical-slice-solution
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.gong-teas-hierarchical-slice-solution
 date:
 - type: published
-  value: '2023-01-08'
+  value: '2023-07-06'
 contributor:
 - person:
     name:
@@ -221,8 +221,8 @@ contributor:
   role:
   - type: author
 version:
-- draft: '01'
-revdate: '2023-01-08'
+- draft: '02'
+revdate: '2023-07-06'
 language:
 - en
 script:
@@ -240,23 +240,13 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-gong-teas-hierarchical-slice-solution-00
+    id: draft-gong-teas-hierarchical-slice-solution-01
     docid:
-    - id: draft-gong-teas-hierarchical-slice-solution-00
+    - id: draft-gong-teas-hierarchical-slice-solution-01
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-gong-teas-hierarchical-slice-solution-00
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-gong-teas-hierarchical-slice-solution-02
-    docid:
-    - id: draft-gong-teas-hierarchical-slice-solution-02
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-gong-teas-hierarchical-slice-solution-02
+      content: draft-gong-teas-hierarchical-slice-solution-01
       format: text/plain
 series:
 - type: main
@@ -267,7 +257,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-gong-teas-hierarchical-slice-solution-01
+  number: draft-gong-teas-hierarchical-slice-solution-02
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

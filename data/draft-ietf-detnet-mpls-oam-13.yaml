@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-detnet-mpls-oam-12
+id: draft-ietf-detnet-mpls-oam-13
 title:
 - content: Operations, Administration and Maintenance (OAM) for Deterministic Networks
     (DetNet) with MPLS Data Plane
@@ -10,11 +10,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-detnet-mpls-oam-12
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-detnet-mpls-oam-13
   type: src
 type: standard
 docid:
-- id: draft-ietf-detnet-mpls-oam-12
+- id: draft-ietf-detnet-mpls-oam-13
   type: Internet-Draft
   primary: true
 - id: I-D.ietf-detnet-mpls-oam
@@ -23,7 +23,7 @@ docid:
 docnumber: I-D.ietf-detnet-mpls-oam
 date:
 - type: published
-  value: '2023-04-20'
+  value: '2023-07-06'
 contributor:
 - person:
     name:
@@ -110,14 +110,14 @@ contributor:
   role:
   - type: author
 version:
-- draft: '12'
-revdate: '2023-04-20'
+- draft: '13'
+revdate: '2023-07-06'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document defines format and use principles of the Deterministic
+- content: "<p>This document defines format and usage principles of the Deterministic
     Network (DetNet) service Associated Channel (ACH) over a DetNet network with the
     MPLS data plane. The DetNet service ACH can be used to carry test packets of active
     Operations, Administration, and Maintenance protocols that are used to detect
@@ -138,16 +138,6 @@ relation:
     formattedref:
       content: draft-ietf-detnet-mpls-oam-04
       format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-ietf-detnet-mpls-oam-13
-    docid:
-    - id: draft-ietf-detnet-mpls-oam-13
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-ietf-detnet-mpls-oam-13
-      format: text/plain
 series:
 - type: main
   title:
@@ -157,7 +147,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-detnet-mpls-oam-12
+  number: draft-ietf-detnet-mpls-oam-13
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

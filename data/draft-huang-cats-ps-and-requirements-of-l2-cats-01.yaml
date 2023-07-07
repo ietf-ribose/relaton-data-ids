@@ -1,66 +1,34 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-ntp-chronos-15
+id: draft-huang-cats-ps-and-requirements-of-l2-cats-01
 title:
-- content: A Secure Selection and Filtering Mechanism for the Network Time Protocol
-    with Khronos
+- content: Problem statements and requirements of L2 CATS
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-ntp-chronos-15
+- content: https://datatracker.ietf.org/doc/html/draft-huang-cats-ps-and-requirements-of-l2-cats-01
   type: src
 type: standard
 docid:
-- id: draft-ietf-ntp-chronos-15
+- id: draft-huang-cats-ps-and-requirements-of-l2-cats-01
   type: Internet-Draft
   primary: true
-- id: I-D.ietf-ntp-chronos
+- id: I-D.huang-cats-ps-and-requirements-of-l2-cats
   type: IETF
   scope: anchor
-docnumber: I-D.ietf-ntp-chronos
+docnumber: I-D.huang-cats-ps-and-requirements-of-l2-cats
 date:
 - type: published
-  value: '2023-06-15'
+  value: '2023-07-06'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Neta
-          language:
-          - en
-        - language:
-          - en
-          initial: N
-        - language:
-          - en
-          initial: R
-        formatted_initials:
-          content: N. R.
-          language:
-          - en
-      surname:
-        content: Schiff
-        language:
-        - en
-      completename:
-        content: Neta Rozen Schiff
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - content: Hebrew University of Jerusalem
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Danny
+        - content: Daniel
           language:
           - en
         - language:
@@ -71,90 +39,118 @@ contributor:
           language:
           - en
       surname:
-        content: Dolev
+        content: Huang
         language:
         - en
       completename:
-        content: Danny Dolev
+        content: Daniel Huang
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Hebrew University of Jerusalem
+        - content: ZTE Corporation
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Tal
+        - content: Zhiqiang
           language:
           - en
         - language:
           - en
-          initial: T
+          initial: Z
         formatted_initials:
-          content: T.
+          content: Z.
           language:
           - en
       surname:
-        content: Mizrahi
+        content: Li
         language:
         - en
       completename:
-        content: Tal Mizrahi
+        content: Zhiqiang Li
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Huawei Network.IO Innovation Lab
+        - content: China Mobile
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Michael
+        - content: Jinjiang
           language:
           - en
         - language:
           - en
-          initial: M
+          initial: J
         formatted_initials:
-          content: M.
+          content: J.
           language:
           - en
       surname:
-        content: Schapira
+        content: WANG
         language:
         - en
       completename:
-        content: Michael Schapira
+        content: Jinjiang WANG
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Hebrew University of Jerusalem
+        - content: China Mobile(Hangzhou)Information Technology Co Ltd
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Bin
+          language:
+          - en
+        - language:
+          - en
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+      surname:
+        content: Tan
+        language:
+        - en
+      completename:
+        content: Bin Tan
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: ZTE Corporation
   role:
   - type: author
 version:
-- draft: '15'
-revdate: '2023-06-15'
+- draft: '01'
+revdate: '2023-07-06'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: <p>The Network Time Protocol version 4 (NTPv4), as defined in RFC 5905,
-    is the mechanism used by NTP clients to synchronize with NTP servers across the
-    Internet. This document specifies an extension to the NTPv4 client, named Khronos,
-    which is used as a "watchdog" alongside NTPv4, and provides improved security
-    against time shifting attacks. Khronos involves changes to the NTP client's system
-    process only. Since it does not affect the wire protocol, the Khronos mechanism
-    is applicable to any current or future time protocol.</p>
+- content: "<p>The computing intensive parts of the customer premise equipment have
+    been decoupled and migrated to the cloud, therefore the thin CPE remaining at
+    customer premise needs to access its “avatar” virtual CPE in the cloud which could
+    be deployed in multiple edge computing sites. This draft will illustrate a use
+    case of L2 traffic steering in terms of dynamic computing and networking resource
+    status, together with requirements for CATS as well as solution consideration
+    with regard to particularly the difference from the L3 routing framework.</p>"
   language:
   - en
   script:
@@ -163,23 +159,13 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-ietf-ntp-chronos-02
+    id: draft-huang-cats-ps-and-requirements-of-l2-cats-00
     docid:
-    - id: draft-ietf-ntp-chronos-02
+    - id: draft-huang-cats-ps-and-requirements-of-l2-cats-00
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-ietf-ntp-chronos-02
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-ietf-ntp-chronos-19
-    docid:
-    - id: draft-ietf-ntp-chronos-19
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-ietf-ntp-chronos-19
+      content: draft-huang-cats-ps-and-requirements-of-l2-cats-00
       format: text/plain
 series:
 - type: main
@@ -190,7 +176,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-ntp-chronos-15
+  number: draft-huang-cats-ps-and-requirements-of-l2-cats-01
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

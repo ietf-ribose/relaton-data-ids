@@ -1,127 +1,126 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-detnet-mpls-oam-12
+id: draft-cheng-rift-srv6-extensions-01
 title:
-- content: Operations, Administration and Maintenance (OAM) for Deterministic Networks
-    (DetNet) with MPLS Data Plane
+- content: RIFT extensions for SRv6
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-detnet-mpls-oam-12
+- content: https://datatracker.ietf.org/doc/html/draft-cheng-rift-srv6-extensions-01
   type: src
 type: standard
 docid:
-- id: draft-ietf-detnet-mpls-oam-12
+- id: draft-cheng-rift-srv6-extensions-01
   type: Internet-Draft
   primary: true
-- id: I-D.ietf-detnet-mpls-oam
+- id: I-D.cheng-rift-srv6-extensions
   type: IETF
   scope: anchor
-docnumber: I-D.ietf-detnet-mpls-oam
+docnumber: I-D.cheng-rift-srv6-extensions
 date:
 - type: published
-  value: '2023-04-20'
+  value: '2023-07-06'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Greg
+        - content: Weiqiang
           language:
           - en
         - language:
           - en
-          initial: G
+          initial: W
         formatted_initials:
-          content: G.
+          content: W.
           language:
           - en
       surname:
-        content: Mirsky
+        content: Cheng
         language:
         - en
       completename:
-        content: Greg Mirsky
+        content: Weiqiang Cheng
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Ericsson
+        - content: China Mobile
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Mach
+        - content: Changwang
           language:
           - en
         - language:
           - en
-          initial: M
+          initial: C
         formatted_initials:
-          content: M.
+          content: C.
           language:
           - en
       surname:
-        content: Chen
+        content: Lin
         language:
         - en
       completename:
-        content: Mach Chen
+        content: Changwang Lin
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Huawei
+        - content: New H3C Technologies
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Balazs
+        - content: Ruixue
           language:
           - en
         - language:
           - en
-          initial: B
+          initial: R
         formatted_initials:
-          content: B.
+          content: R.
           language:
           - en
       surname:
-        content: Varga
+        content: Wang
         language:
         - en
       completename:
-        content: Balazs Varga
+        content: Ruixue Wang
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Ericsson
+        - content: China Mobile
   role:
   - type: author
 version:
-- draft: '12'
-revdate: '2023-04-20'
+- draft: '01'
+revdate: '2023-07-06'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document defines format and use principles of the Deterministic
-    Network (DetNet) service Associated Channel (ACH) over a DetNet network with the
-    MPLS data plane. The DetNet service ACH can be used to carry test packets of active
-    Operations, Administration, and Maintenance protocols that are used to detect
-    DetNet failures and measure performance metrics.</p>"
+- content: "<p>The Segment Routing (SR) architecture allows a flexible definition
+    of the end-to-end path by encoding it as a sequence of topological elements called
+    segments. It can be implemented over an MPLS or IPv6 data plane. This document
+    describes the RIFT extensions required to support Segment Routing over the IPv6
+    data plane (SRv6).</p>"
   language:
   - en
   script:
@@ -130,23 +129,13 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-ietf-detnet-mpls-oam-04
+    id: draft-cheng-rift-srv6-extensions-00
     docid:
-    - id: draft-ietf-detnet-mpls-oam-04
+    - id: draft-cheng-rift-srv6-extensions-00
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-ietf-detnet-mpls-oam-04
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-ietf-detnet-mpls-oam-13
-    docid:
-    - id: draft-ietf-detnet-mpls-oam-13
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-ietf-detnet-mpls-oam-13
+      content: draft-cheng-rift-srv6-extensions-00
       format: text/plain
 series:
 - type: main
@@ -157,7 +146,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-detnet-mpls-oam-12
+  number: draft-cheng-rift-srv6-extensions-01
 doctype: internet-draft
 ext:
   schema-version: v1.0.0
