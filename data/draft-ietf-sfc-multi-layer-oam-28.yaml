@@ -1,159 +1,49 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-teas-actn-poi-applicability-08
+id: draft-ietf-sfc-multi-layer-oam-28
 title:
-- content: Applicability of Abstraction and Control of Traffic Engineered Networks
-    (ACTN) to Packet Optical Integration (POI)
+- content: Active OAM for Service Function Chaining (SFC)
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-teas-actn-poi-applicability-08
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-sfc-multi-layer-oam-28
   type: src
 type: standard
 docid:
-- id: draft-ietf-teas-actn-poi-applicability-08
+- id: draft-ietf-sfc-multi-layer-oam-28
   type: Internet-Draft
   primary: true
-- id: I-D.ietf-teas-actn-poi-applicability
+- id: I-D.ietf-sfc-multi-layer-oam
   type: IETF
   scope: anchor
-docnumber: I-D.ietf-teas-actn-poi-applicability
+docnumber: I-D.ietf-sfc-multi-layer-oam
 date:
 - type: published
-  value: '2023-01-11'
+  value: '2023-07-07'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Fabio
+        - content: Greg
           language:
           - en
         - language:
           - en
-          initial: F
+          initial: G
         formatted_initials:
-          content: F.
+          content: G.
           language:
           - en
       surname:
-        content: Peruzzini
+        content: Mirsky
         language:
         - en
       completename:
-        content: Fabio Peruzzini
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - content: TIM
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - language:
-          - en
-          initial: J
-        formatted_initials:
-          content: J.
-          language:
-          - en
-      surname:
-        content: Bouquier
-        language:
-        - en
-      completename:
-        content: Jean-Francois Bouquier
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - content: Vodafone
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Italo
-          language:
-          - en
-        - language:
-          - en
-          initial: I
-        formatted_initials:
-          content: I.
-          language:
-          - en
-      surname:
-        content: Busi
-        language:
-        - en
-      completename:
-        content: Italo Busi
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - content: Huawei
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Daniel
-          language:
-          - en
-        - language:
-          - en
-          initial: D
-        formatted_initials:
-          content: D.
-          language:
-          - en
-      surname:
-        content: King
-        language:
-        - en
-      completename:
-        content: Daniel King
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - content: Old Dog Consulting
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Daniele
-          language:
-          - en
-        - language:
-          - en
-          initial: D
-        formatted_initials:
-          content: D.
-          language:
-          - en
-      surname:
-        content: Ceccarelli
-        language:
-        - en
-      completename:
-        content: Daniele Ceccarelli
+        content: Greg Mirsky
         language:
         - en
     affiliation:
@@ -162,22 +52,161 @@ contributor:
         - content: Ericsson
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Wei
+          language:
+          - en
+        - language:
+          - en
+          initial: W
+        formatted_initials:
+          content: W.
+          language:
+          - en
+      surname:
+        content: Meng
+        language:
+        - en
+      completename:
+        content: Wei Meng
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: ZTE Corporation
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Ting
+          language:
+          - en
+        - language:
+          - en
+          initial: T
+        formatted_initials:
+          content: T.
+          language:
+          - en
+      surname:
+        content: Ao
+        language:
+        - en
+      completename:
+        content: Ting Ao
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: China Mobile
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Bhumip
+          language:
+          - en
+        - language:
+          - en
+          initial: B
+        formatted_initials:
+          content: B.
+          language:
+          - en
+      surname:
+        content: Khasnabish
+        language:
+        - en
+      completename:
+        content: Bhumip Khasnabish
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Individual contributor
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Kent
+          language:
+          - en
+        - language:
+          - en
+          initial: K
+        formatted_initials:
+          content: K.
+          language:
+          - en
+      surname:
+        content: Leung
+        language:
+        - en
+      completename:
+        content: Kent Leung
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Individual contributor
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Gyan
+          language:
+          - en
+        - language:
+          - en
+          initial: G
+        - language:
+          - en
+          initial: S
+        formatted_initials:
+          content: G. S.
+          language:
+          - en
+      surname:
+        content: Mishra
+        language:
+        - en
+      completename:
+        content: Gyan Mishra
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Verizon Inc.
+  role:
+  - type: author
 version:
-- draft: '08'
-revdate: '2023-01-11'
+- draft: '28'
+revdate: '2023-07-07'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document considers the applicability of Abstraction and Control
-    of TE Networks (ACTN) architecture to Packet Optical Integration (POI)in the context
-    of IP/MPLS and optical internetworking. It identifies the YANG data models defined
-    by the IETF to support this deployment architecture and specific scenarios relevant
-    to Service Providers. Existing IETF protocols and data models are identified for
-    each multi-layer (packet over optical) scenario with a specific focus on the MPI
-    (Multi-Domain Service Coordinator to Provisioning Network Controllers Interface)in
-    the ACTN architecture.</p>"
+- content: "<p>A set of requirements for active Operation, Administration, and Maintenance
+    (OAM) of Service Function Chains (SFCs) in a network is presented in this document.
+    Based on these requirements, an encapsulation of active OAM messages in SFC and
+    a mechanism to detect and localize defects are described.</p>"
   language:
   - en
   script:
@@ -186,23 +215,13 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-ietf-teas-actn-poi-applicability-00
+    id: draft-ietf-sfc-multi-layer-oam-15
     docid:
-    - id: draft-ietf-teas-actn-poi-applicability-00
+    - id: draft-ietf-sfc-multi-layer-oam-15
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-ietf-teas-actn-poi-applicability-00
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-ietf-teas-actn-poi-applicability-09
-    docid:
-    - id: draft-ietf-teas-actn-poi-applicability-09
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-ietf-teas-actn-poi-applicability-09
+      content: draft-ietf-sfc-multi-layer-oam-15
       format: text/plain
 series:
 - type: main
@@ -213,7 +232,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-teas-actn-poi-applicability-08
+  number: draft-ietf-sfc-multi-layer-oam-28
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

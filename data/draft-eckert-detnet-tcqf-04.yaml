@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-eckert-detnet-tcqf-03
+id: draft-eckert-detnet-tcqf-04
 title:
 - content: Deterministic Networking (DetNet) Data Plane - Tagged Cyclic Queuing and
     Forwarding (TCQF) for bounded latency with low jitter in large scale DetNets
@@ -10,11 +10,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-eckert-detnet-tcqf-03
+- content: https://datatracker.ietf.org/doc/html/draft-eckert-detnet-tcqf-04
   type: src
 type: standard
 docid:
-- id: draft-eckert-detnet-tcqf-03
+- id: draft-eckert-detnet-tcqf-04
   type: Internet-Draft
   primary: true
 - id: I-D.eckert-detnet-tcqf
@@ -23,7 +23,7 @@ docid:
 docnumber: I-D.eckert-detnet-tcqf
 date:
 - type: published
-  value: '2023-06-19'
+  value: '2023-07-07'
 contributor:
 - person:
     name:
@@ -281,8 +281,8 @@ contributor:
   role:
   - type: author
 version:
-- draft: '03'
-revdate: '2023-06-19'
+- draft: '04'
+revdate: '2023-07-07'
 language:
 - en
 script:
@@ -318,16 +318,6 @@ relation:
     formattedref:
       content: draft-eckert-detnet-tcqf-02
       format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-eckert-detnet-tcqf-04
-    docid:
-    - id: draft-eckert-detnet-tcqf-04
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-eckert-detnet-tcqf-04
-      format: text/plain
 series:
 - type: main
   title:
@@ -337,7 +327,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-eckert-detnet-tcqf-03
+  number: draft-eckert-detnet-tcqf-04
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

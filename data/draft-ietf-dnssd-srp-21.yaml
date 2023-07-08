@@ -1,96 +1,100 @@
 ---
 schema-version: v1.2.3
-id: draft-jones-oauth-resource-metadata-01
+id: draft-ietf-dnssd-srp-21
 title:
-- content: OAuth 2.0 Protected Resource Metadata
+- content: Service Registration Protocol for DNS-Based Service Discovery
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-jones-oauth-resource-metadata-01
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-dnssd-srp-21
   type: src
 type: standard
 docid:
-- id: draft-jones-oauth-resource-metadata-01
+- id: draft-ietf-dnssd-srp-21
   type: Internet-Draft
   primary: true
-- id: I-D.jones-oauth-resource-metadata
+- id: I-D.ietf-dnssd-srp
   type: IETF
   scope: anchor
-docnumber: I-D.jones-oauth-resource-metadata
+docnumber: I-D.ietf-dnssd-srp
 date:
 - type: published
-  value: '2017-01-19'
+  value: '2023-07-07'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Michael
+        - content: Ted
           language:
           - en
         - language:
           - en
-          initial: M
+          initial: T
         formatted_initials:
-          content: M.
+          content: T.
           language:
           - en
       surname:
-        content: Jones
+        content: Lemon
         language:
         - en
       completename:
-        content: Michael Jones
+        content: Ted Lemon
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Microsoft
+        - content: Apple Inc.
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Phil
+        - content: Stuart
           language:
           - en
         - language:
           - en
-          initial: P
+          initial: S
         formatted_initials:
-          content: P.
+          content: S.
           language:
           - en
       surname:
-        content: Hunt
+        content: Cheshire
         language:
         - en
       completename:
-        content: Phil Hunt
+        content: Stuart Cheshire
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Oracle
+        - content: Apple Inc.
   role:
   - type: author
 version:
-- draft: '01'
-revdate: '2017-01-19'
+- draft: '21'
+revdate: '2023-07-07'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This specification defines a metadata format that an OAuth 2.0 client
-    can use to obtain the information needed to interact with an OAuth 2.0 protected
-    resource.</p>"
+- content: "<p>The Service Registration Protocol for DNS-Based Service Discovery uses
+    the standard DNS Update mechanism to enable DNS-Based Service Discovery using
+    only unicast packets. This makes it possible to deploy DNS Service Discovery without
+    multicast, which greatly improves scalability and improves performance on networks
+    where multicast service is not an optimal choice, particularly IEEE 802.11 (Wi-Fi)
+    and IEEE 802.15.4 networks. DNS-SD Service registration uses public keys and SIG(0)
+    to allow services to defend their registrations.</p>"
   language:
   - en
   script:
@@ -99,23 +103,13 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-jones-oauth-resource-metadata-00
+    id: draft-ietf-dnssd-srp-06
     docid:
-    - id: draft-jones-oauth-resource-metadata-00
+    - id: draft-ietf-dnssd-srp-06
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-jones-oauth-resource-metadata-00
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-jones-oauth-resource-metadata-03
-    docid:
-    - id: draft-jones-oauth-resource-metadata-03
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-jones-oauth-resource-metadata-03
+      content: draft-ietf-dnssd-srp-06
       format: text/plain
 series:
 - type: main
@@ -126,7 +120,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-jones-oauth-resource-metadata-01
+  number: draft-ietf-dnssd-srp-21
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

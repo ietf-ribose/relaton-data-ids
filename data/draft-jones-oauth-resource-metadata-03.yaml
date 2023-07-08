@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-jones-oauth-resource-metadata-01
+id: draft-jones-oauth-resource-metadata-03
 title:
 - content: OAuth 2.0 Protected Resource Metadata
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-jones-oauth-resource-metadata-01
+- content: https://datatracker.ietf.org/doc/html/draft-jones-oauth-resource-metadata-03
   type: src
 type: standard
 docid:
-- id: draft-jones-oauth-resource-metadata-01
+- id: draft-jones-oauth-resource-metadata-03
   type: Internet-Draft
   primary: true
 - id: I-D.jones-oauth-resource-metadata
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.jones-oauth-resource-metadata
 date:
 - type: published
-  value: '2017-01-19'
+  value: '2023-07-07'
 contributor:
 - person:
     name:
@@ -34,8 +34,11 @@ contributor:
         - language:
           - en
           initial: M
+        - language:
+          - en
+          initial: B
         formatted_initials:
-          content: M.
+          content: M. B.
           language:
           - en
       surname:
@@ -43,13 +46,13 @@ contributor:
         language:
         - en
       completename:
-        content: Michael Jones
+        content: Michael B. Jones
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Microsoft
+        - content: independent
   role:
   - type: author
 - person:
@@ -77,12 +80,40 @@ contributor:
     affiliation:
     - organization:
         name:
-        - content: Oracle
+        - content: independent
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Aaron
+          language:
+          - en
+        - language:
+          - en
+          initial: A
+        formatted_initials:
+          content: A.
+          language:
+          - en
+      surname:
+        content: Parecki
+        language:
+        - en
+      completename:
+        content: Aaron Parecki
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Okta
   role:
   - type: author
 version:
-- draft: '01'
-revdate: '2017-01-19'
+- draft: '03'
+revdate: '2023-07-07'
 language:
 - en
 script:
@@ -99,23 +130,23 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-jones-oauth-resource-metadata-00
+    id: draft-jones-oauth-resource-metadata-02
     docid:
-    - id: draft-jones-oauth-resource-metadata-00
+    - id: draft-jones-oauth-resource-metadata-02
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-jones-oauth-resource-metadata-00
+      content: draft-jones-oauth-resource-metadata-02
       format: text/plain
 - type: updatedBy
   bibitem:
-    id: draft-jones-oauth-resource-metadata-03
+    id: draft-jones-oauth-resource-metadata-04
     docid:
-    - id: draft-jones-oauth-resource-metadata-03
+    - id: draft-jones-oauth-resource-metadata-04
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-jones-oauth-resource-metadata-03
+      content: draft-jones-oauth-resource-metadata-04
       format: text/plain
 series:
 - type: main
@@ -126,7 +157,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-jones-oauth-resource-metadata-01
+  number: draft-jones-oauth-resource-metadata-03
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-urien-coin-sec-00
+id: draft-urien-coin-sec-01
 title:
 - content: COIN Security
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-urien-coin-sec-00
+- content: https://datatracker.ietf.org/doc/html/draft-urien-coin-sec-01
   type: src
 type: standard
 docid:
-- id: draft-urien-coin-sec-00
+- id: draft-urien-coin-sec-01
   type: Internet-Draft
   primary: true
 - id: I-D.urien-coin-sec
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.urien-coin-sec
 date:
 - type: published
-  value: '2023-03-26'
+  value: '2023-07-07'
 contributor:
 - person:
     name:
@@ -53,8 +53,8 @@ contributor:
   role:
   - type: author
 version:
-- draft: '00'
-revdate: '2023-03-26'
+- draft: '01'
+revdate: '2023-07-07'
 language:
 - en
 script:
@@ -67,15 +67,15 @@ abstract:
   - Latn
   format: text/html
 relation:
-- type: updatedBy
+- type: updates
   bibitem:
-    id: draft-urien-coin-sec-01
+    id: draft-urien-coin-sec-00
     docid:
-    - id: draft-urien-coin-sec-01
+    - id: draft-urien-coin-sec-00
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-urien-coin-sec-01
+      content: draft-urien-coin-sec-00
       format: text/plain
 series:
 - type: main
@@ -86,7 +86,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-urien-coin-sec-00
+  number: draft-urien-coin-sec-01
 doctype: internet-draft
 ext:
   schema-version: v1.0.0
