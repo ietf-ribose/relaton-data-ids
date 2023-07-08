@@ -1,19 +1,19 @@
 ---
 schema-version: v1.2.3
-id: draft-reddy-tsvwg-explcit-signal-00
+id: draft-reddy-tsvwg-explcit-signal-01
 title:
-- content: Encrypted Transport Protocol Path Explicit Signals
+- content: An Approach for Encrypted Transport Protocol Path Explicit Signals
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-reddy-tsvwg-explcit-signal-00
+- content: https://datatracker.ietf.org/doc/html/draft-reddy-tsvwg-explcit-signal-01
   type: src
 type: standard
 docid:
-- id: draft-reddy-tsvwg-explcit-signal-00
+- id: draft-reddy-tsvwg-explcit-signal-01
   type: Internet-Draft
   primary: true
 - id: I-D.reddy-tsvwg-explcit-signal
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.reddy-tsvwg-explcit-signal
 date:
 - type: published
-  value: '2023-02-08'
+  value: '2023-07-07'
 contributor:
 - person:
     name:
@@ -109,32 +109,32 @@ contributor:
   role:
   - type: author
 version:
-- draft: '00'
-revdate: '2023-02-08'
+- draft: '01'
+revdate: '2023-07-07'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document defines a mechanism for an endpoint to explicitly signal
+- content: "<p>This document defines a mechanism for endpoints to explicitly signal
     encrypted metadata to the network, and the network to signal its ability to accommodate
-    that metadata back to the endpoint. This mechanism can be used where the endpoints
-    desire that network elements along the path receive these explicit signals.</p>"
+    that metadata back to the endpoints. This mechanism can be used where the endpoints
+    desire that some network elements along the path receive these explicit signals.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: updatedBy
+- type: updates
   bibitem:
-    id: draft-reddy-tsvwg-explcit-signal-01
+    id: draft-reddy-tsvwg-explcit-signal-00
     docid:
-    - id: draft-reddy-tsvwg-explcit-signal-01
+    - id: draft-reddy-tsvwg-explcit-signal-00
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-reddy-tsvwg-explcit-signal-01
+      content: draft-reddy-tsvwg-explcit-signal-00
       format: text/plain
 series:
 - type: main
@@ -145,7 +145,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-reddy-tsvwg-explcit-signal-00
+  number: draft-reddy-tsvwg-explcit-signal-01
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

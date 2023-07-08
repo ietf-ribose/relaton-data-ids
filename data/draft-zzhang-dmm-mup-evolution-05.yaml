@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-zzhang-dmm-mup-evolution-03
+id: draft-zzhang-dmm-mup-evolution-05
 title:
 - content: Mobile User Plane Evolution
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-zzhang-dmm-mup-evolution-03
+- content: https://datatracker.ietf.org/doc/html/draft-zzhang-dmm-mup-evolution-05
   type: src
 type: standard
 docid:
-- id: draft-zzhang-dmm-mup-evolution-03
+- id: draft-zzhang-dmm-mup-evolution-05
   type: Internet-Draft
   primary: true
 - id: I-D.zzhang-dmm-mup-evolution
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.zzhang-dmm-mup-evolution
 date:
 - type: published
-  value: '2023-02-04'
+  value: '2023-07-07'
 contributor:
 - person:
     name:
@@ -257,25 +257,51 @@ contributor:
         - content: XL Axiata
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Shay
+          language:
+          - en
+        - language:
+          - en
+          initial: S
+        formatted_initials:
+          content: S.
+          language:
+          - en
+      surname:
+        content: Zadok
+        language:
+        - en
+      completename:
+        content: Shay Zadok
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Broadcom
+  role:
+  - type: author
 version:
-- draft: '03'
-revdate: '2023-02-04'
+- draft: '05'
+revdate: '2023-07-07'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>[I-D.zzhang-dmm-5g-distributed-upf] describes evolution of mobile user
-    plane in 5G, including distributed User Plane Functions (UPFs)and alternative
-    user plane implementations that some vendors/ operators are promoting without
-    changing 3GPP architecture/signaling. Building on top of that, this document further
-    discusses potentially integrating UPF and Access Node (AN) in a future generation
-    (xG) of mobile network. This document is not an attempt to do 3GPP work in IETF.
-    Rather, it discusses potential integration of IETF/wireline and 3GPP/wireless
-    technologies - first among parties who are familiar with both areas and friendly
-    with IETF/wireline technologies. If the ideas in this document are deemed reasonable,
-    feasible and desired among these parties, they can then be brought to 3GPP for
-    further discussions.</p>"
+- content: "<p>This document describes evolution of mobile user plane in 5G, including
+    distributed User Plane Functions (UPFs) and alternative user plane implementations
+    that some vendors/operators are promoting without changing 3GPP architecture/signaling,
+    and further discusses potentially integrating UPF and Access Node (AN) in 6G mobile
+    networks. This document is not an attempt to do 3GPP work in IETF. Rather, it
+    discusses potential integration of IETF/wireline and 3GPP/wireless technologies
+    - first among parties who are familiar with both areas and friendly with IETF/wireline
+    technologies. If the ideas in this document are deemed reasonable, feasible and
+    desired among these parties, they can then be brought to 3GPP for further discussions.</p>"
   language:
   - en
   script:
@@ -284,23 +310,13 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-zzhang-dmm-mup-evolution-00
+    id: draft-zzhang-dmm-mup-evolution-03
     docid:
-    - id: draft-zzhang-dmm-mup-evolution-00
+    - id: draft-zzhang-dmm-mup-evolution-03
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-zzhang-dmm-mup-evolution-00
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-zzhang-dmm-mup-evolution-05
-    docid:
-    - id: draft-zzhang-dmm-mup-evolution-05
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-zzhang-dmm-mup-evolution-05
+      content: draft-zzhang-dmm-mup-evolution-03
       format: text/plain
 series:
 - type: main
@@ -311,7 +327,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-zzhang-dmm-mup-evolution-03
+  number: draft-zzhang-dmm-mup-evolution-05
 doctype: internet-draft
 ext:
   schema-version: v1.0.0
