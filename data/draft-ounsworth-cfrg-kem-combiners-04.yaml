@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-ounsworth-cfrg-kem-combiners-03
+id: draft-ounsworth-cfrg-kem-combiners-04
 title:
 - content: Combiner function for hybrid key encapsulation mechanisms (Hybrid KEMs)
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ounsworth-cfrg-kem-combiners-03
+- content: https://datatracker.ietf.org/doc/html/draft-ounsworth-cfrg-kem-combiners-04
   type: src
 type: standard
 docid:
-- id: draft-ounsworth-cfrg-kem-combiners-03
+- id: draft-ounsworth-cfrg-kem-combiners-04
   type: Internet-Draft
   primary: true
 - id: I-D.ounsworth-cfrg-kem-combiners
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.ounsworth-cfrg-kem-combiners
 date:
 - type: published
-  value: '2023-03-13'
+  value: '2023-07-08'
 contributor:
 - person:
     name:
@@ -109,8 +109,8 @@ contributor:
   role:
   - type: author
 version:
-- draft: '03'
-revdate: '2023-03-13'
+- draft: '04'
+revdate: '2023-07-08'
 language:
 - en
 script:
@@ -121,7 +121,7 @@ abstract:
     a single shared secret. This document defines a comprehensible and easy to implement
     Keccak- based KEM combiner to join an arbitrary number of key shares, that is
     compatible with NIST SP 800-56Cr2 [SP800-56C] when viewed as a key derivation
-    function. The combiners defined here are practical multi- PRFs and are CCA-secure
+    function. The combiners defined here are practical split- key PRFs and are CCA-secure
     as long as at least one of the ingredient KEMs is.</p>"
   language:
   - en
@@ -139,16 +139,6 @@ relation:
     formattedref:
       content: draft-ounsworth-cfrg-kem-combiners-01
       format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-ounsworth-cfrg-kem-combiners-04
-    docid:
-    - id: draft-ounsworth-cfrg-kem-combiners-04
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-ounsworth-cfrg-kem-combiners-04
-      format: text/plain
 series:
 - type: main
   title:
@@ -158,7 +148,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ounsworth-cfrg-kem-combiners-03
+  number: draft-ounsworth-cfrg-kem-combiners-04
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

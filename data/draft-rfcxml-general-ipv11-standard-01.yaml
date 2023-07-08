@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-rfcxml-general-ipv11-standard-00
+id: draft-rfcxml-general-ipv11-standard-01
 title:
 - content: Internet Protocol version 11
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-rfcxml-general-ipv11-standard-00
+- content: https://datatracker.ietf.org/doc/html/draft-rfcxml-general-ipv11-standard-01
   type: src
 type: standard
 docid:
-- id: draft-rfcxml-general-ipv11-standard-00
+- id: draft-rfcxml-general-ipv11-standard-01
   type: Internet-Draft
   primary: true
 - id: I-D.rfcxml-general-ipv11-standard
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.rfcxml-general-ipv11-standard
 date:
 - type: published
-  value: '2023-07-06'
+  value: '2023-07-08'
 contributor:
 - person:
     name:
@@ -49,8 +49,8 @@ contributor:
   role:
   - type: author
 version:
-- draft: '00'
-revdate: '2023-07-06'
+- draft: '01'
+revdate: '2023-07-08'
 language:
 - en
 script:
@@ -63,15 +63,15 @@ abstract:
   - Latn
   format: text/html
 relation:
-- type: updatedBy
+- type: updates
   bibitem:
-    id: draft-rfcxml-general-ipv11-standard-01
+    id: draft-rfcxml-general-ipv11-standard-00
     docid:
-    - id: draft-rfcxml-general-ipv11-standard-01
+    - id: draft-rfcxml-general-ipv11-standard-00
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-rfcxml-general-ipv11-standard-01
+      content: draft-rfcxml-general-ipv11-standard-00
       format: text/plain
 series:
 - type: main
@@ -82,7 +82,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-rfcxml-general-ipv11-standard-00
+  number: draft-rfcxml-general-ipv11-standard-01
 doctype: internet-draft
 ext:
   schema-version: v1.0.0
