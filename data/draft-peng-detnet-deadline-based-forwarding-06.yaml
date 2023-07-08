@@ -1,49 +1,77 @@
 ---
 schema-version: v1.2.3
-id: draft-jiang-spring-parent-sr-policy-use-cases-01
+id: draft-peng-detnet-deadline-based-forwarding-06
 title:
-- content: Use Cases for Parent SR Policy
+- content: Deadline Based Deterministic Forwarding
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-jiang-spring-parent-sr-policy-use-cases-01
+- content: https://datatracker.ietf.org/doc/html/draft-peng-detnet-deadline-based-forwarding-06
   type: src
 type: standard
 docid:
-- id: draft-jiang-spring-parent-sr-policy-use-cases-01
+- id: draft-peng-detnet-deadline-based-forwarding-06
   type: Internet-Draft
   primary: true
-- id: I-D.jiang-spring-parent-sr-policy-use-cases
+- id: I-D.peng-detnet-deadline-based-forwarding
   type: IETF
   scope: anchor
-docnumber: I-D.jiang-spring-parent-sr-policy-use-cases
+docnumber: I-D.peng-detnet-deadline-based-forwarding
 date:
 - type: published
-  value: '2023-01-04'
+  value: '2023-07-07'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Jiang
+        - content: Shaofu
           language:
           - en
         - language:
           - en
-          initial: J
+          initial: S
         formatted_initials:
-          content: J.
+          content: S.
           language:
           - en
       surname:
-        content: Wenying
+        content: Peng
         language:
         - en
       completename:
-        content: Jiang Wenying
+        content: Shaofu Peng
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: ZTE Corporation
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Zongpeng
+          language:
+          - en
+        - language:
+          - en
+          initial: Z
+        formatted_initials:
+          content: Z.
+          language:
+          - en
+      surname:
+        content: Du
+        language:
+        - en
+      completename:
+        content: Zongpeng Du
         language:
         - en
     affiliation:
@@ -56,50 +84,46 @@ contributor:
     name:
       given:
         forename:
-        - content: Weiqiang
+        - content: Kashinath
           language:
           - en
         - language:
           - en
-          initial: W
+          initial: K
         formatted_initials:
-          content: W.
+          content: K.
           language:
           - en
       surname:
-        content: Cheng
+        content: Basu
         language:
         - en
       completename:
-        content: Weiqiang Cheng
+        content: Kashinath Basu
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: China Mobile
+        - content: Oxford Brookes University
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Changwang
+        - content: zuopin
           language:
           - en
-        - language:
-          - en
-          initial: C
         formatted_initials:
-          content: C.
           language:
           - en
       surname:
-        content: Lin
+        content: cheng
         language:
         - en
       completename:
-        content: Changwang Lin
+        content: zuopin cheng
         language:
         - en
     affiliation:
@@ -112,43 +136,42 @@ contributor:
     name:
       given:
         forename:
-        - content: Yuanxiang
+        - content: Dong
           language:
           - en
         - language:
           - en
-          initial: Y
+          initial: D
         formatted_initials:
-          content: Y.
+          content: D.
           language:
           - en
       surname:
-        content: Qiu
+        content: Yang
         language:
         - en
       completename:
-        content: Yuanxiang Qiu
+        content: Dong Yang
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: New H3C Technologies
+        - content: Beijing Jiaotong University
   role:
   - type: author
 version:
-- draft: '01'
-revdate: '2023-01-04'
+- draft: '06'
+revdate: '2023-07-07'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>Segment Routing is a source routing paradigm that explicitly indicates
-    the forwarding path for packets at the ingress node. An SR Policy is associated
-    with one or more candidate paths, and each candidate path is dynamic, explicit
-    or composite. This document illustrates some use cases for parent SR policy in
-    MPLS and IPv6 environment.</p>"
+- content: "<p>This document describes a deterministic forwarding mechanism to IP/
+    MPLS network, as well as corresponding resource reservation, admission control,
+    policing, etc, to provide guaranteed latency. Especially, latency compensation
+    with core stateless is discussed to replace reshaping and also achieve low jitter.</p>"
   language:
   - en
   script:
@@ -157,23 +180,13 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-jiang-spring-parent-sr-policy-use-cases-00
+    id: draft-peng-detnet-deadline-based-forwarding-01
     docid:
-    - id: draft-jiang-spring-parent-sr-policy-use-cases-00
+    - id: draft-peng-detnet-deadline-based-forwarding-01
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-jiang-spring-parent-sr-policy-use-cases-00
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-jiang-spring-parent-sr-policy-use-cases-02
-    docid:
-    - id: draft-jiang-spring-parent-sr-policy-use-cases-02
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-jiang-spring-parent-sr-policy-use-cases-02
+      content: draft-peng-detnet-deadline-based-forwarding-01
       format: text/plain
 series:
 - type: main
@@ -184,7 +197,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-jiang-spring-parent-sr-policy-use-cases-01
+  number: draft-peng-detnet-deadline-based-forwarding-06
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

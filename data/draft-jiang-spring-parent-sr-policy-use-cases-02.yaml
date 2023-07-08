@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-jiang-spring-parent-sr-policy-use-cases-01
+id: draft-jiang-spring-parent-sr-policy-use-cases-02
 title:
 - content: Use Cases for Parent SR Policy
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-jiang-spring-parent-sr-policy-use-cases-01
+- content: https://datatracker.ietf.org/doc/html/draft-jiang-spring-parent-sr-policy-use-cases-02
   type: src
 type: standard
 docid:
-- id: draft-jiang-spring-parent-sr-policy-use-cases-01
+- id: draft-jiang-spring-parent-sr-policy-use-cases-02
   type: Internet-Draft
   primary: true
 - id: I-D.jiang-spring-parent-sr-policy-use-cases
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.jiang-spring-parent-sr-policy-use-cases
 date:
 - type: published
-  value: '2023-01-04'
+  value: '2023-07-08'
 contributor:
 - person:
     name:
@@ -137,8 +137,8 @@ contributor:
   role:
   - type: author
 version:
-- draft: '01'
-revdate: '2023-01-04'
+- draft: '02'
+revdate: '2023-07-08'
 language:
 - en
 script:
@@ -157,23 +157,13 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-jiang-spring-parent-sr-policy-use-cases-00
+    id: draft-jiang-spring-parent-sr-policy-use-cases-01
     docid:
-    - id: draft-jiang-spring-parent-sr-policy-use-cases-00
+    - id: draft-jiang-spring-parent-sr-policy-use-cases-01
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-jiang-spring-parent-sr-policy-use-cases-00
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-jiang-spring-parent-sr-policy-use-cases-02
-    docid:
-    - id: draft-jiang-spring-parent-sr-policy-use-cases-02
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-jiang-spring-parent-sr-policy-use-cases-02
+      content: draft-jiang-spring-parent-sr-policy-use-cases-01
       format: text/plain
 series:
 - type: main
@@ -184,7 +174,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-jiang-spring-parent-sr-policy-use-cases-01
+  number: draft-jiang-spring-parent-sr-policy-use-cases-02
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

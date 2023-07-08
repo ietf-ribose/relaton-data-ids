@@ -1,112 +1,119 @@
 ---
 schema-version: v1.2.3
-id: draft-lin-savnet-lsr-intra-domain-method-00
+id: draft-rivest-sexp-02
 title:
-- content: Intra-domain SAVNET method
+- content: S-Expressions
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-lin-savnet-lsr-intra-domain-method-00
+- content: https://datatracker.ietf.org/doc/html/draft-rivest-sexp-02
   type: src
 type: standard
 docid:
-- id: draft-lin-savnet-lsr-intra-domain-method-00
+- id: draft-rivest-sexp-02
   type: Internet-Draft
   primary: true
-- id: I-D.lin-savnet-lsr-intra-domain-method
+- id: I-D.rivest-sexp
   type: IETF
   scope: anchor
-docnumber: I-D.lin-savnet-lsr-intra-domain-method
+docnumber: I-D.rivest-sexp
 date:
 - type: published
-  value: '2022-07-09'
+  value: '2023-07-08'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Changwang
+        - content: Ronald
           language:
           - en
         - language:
           - en
-          initial: C
+          initial: R
+        - language:
+          - en
+          initial: L
         formatted_initials:
-          content: C.
+          content: R. L.
           language:
           - en
       surname:
-        content: Lin
+        content: Rivest
         language:
         - en
       completename:
-        content: Changwang Lin
+        content: Ronald L. Rivest
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: New H3C Technologies
+        - content: MIT CSAIL
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Yuanxiang
+        - content: Donald
           language:
           - en
         - language:
           - en
-          initial: Y
+          initial: D
+        - language:
+          - en
+          initial: E
         formatted_initials:
-          content: Y.
+          content: D. E.
           language:
           - en
       surname:
-        content: Qiu
+        content: Eastlake
         language:
         - en
       completename:
-        content: Yuanxiang Qiu
+        content: Donald E. Eastlake 3rd
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: New H3C Technologies
+        - content: Futurewei Technologies
   role:
   - type: author
 version:
-- draft: '00'
-revdate: '2022-07-09'
+- draft: '02'
+revdate: '2023-07-08'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document proposes a method of Source Address Validation in Intra-domain,
-    which can be applied to OSPF and IS-IS protocols. By extending IGP and adding
-    the protocol calculation procedure, the SAV information can be accurately calculated
-    to realize the source address verification.</p>"
+- content: '<p>This memo describes a data structure called "S-expressions" that are
+    suitable for representing arbitrary, complex data structures. We make precise
+    the encodings of S-expressions: we give a "canonical form" for S-expressions,
+    described two "transport" representations, and also describe an "advanced" format
+    for display to people.</p>'
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: updatedBy
+- type: updates
   bibitem:
-    id: draft-lin-savnet-lsr-intra-domain-method-02
+    id: draft-rivest-sexp-00
     docid:
-    - id: draft-lin-savnet-lsr-intra-domain-method-02
+    - id: draft-rivest-sexp-00
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-lin-savnet-lsr-intra-domain-method-02
+      content: draft-rivest-sexp-00
       format: text/plain
 series:
 - type: main
@@ -117,7 +124,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-lin-savnet-lsr-intra-domain-method-00
+  number: draft-rivest-sexp-02
 doctype: internet-draft
 ext:
   schema-version: v1.0.0
