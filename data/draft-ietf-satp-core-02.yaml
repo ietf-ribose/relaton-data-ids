@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-satp-core-01
+id: draft-ietf-satp-core-02
 title:
 - content: Secure Asset Transfer Protocol (SATP)
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-satp-core-01
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-satp-core-02
   type: src
 type: standard
 docid:
-- id: draft-ietf-satp-core-01
+- id: draft-ietf-satp-core-02
   type: Internet-Draft
   primary: true
 - id: I-D.ietf-satp-core
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.ietf-satp-core
 date:
 - type: published
-  value: '2023-06-12'
+  value: '2023-07-08'
 contributor:
 - person:
     name:
@@ -109,8 +109,8 @@ contributor:
   role:
   - type: author
 version:
-- draft: '01'
-revdate: '2023-06-12'
+- draft: '02'
+revdate: '2023-07-08'
 language:
 - en
 script:
@@ -137,16 +137,6 @@ relation:
     formattedref:
       content: draft-ietf-satp-core-00
       format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-ietf-satp-core-02
-    docid:
-    - id: draft-ietf-satp-core-02
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-ietf-satp-core-02
-      format: text/plain
 series:
 - type: main
   title:
@@ -156,7 +146,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-satp-core-01
+  number: draft-ietf-satp-core-02
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

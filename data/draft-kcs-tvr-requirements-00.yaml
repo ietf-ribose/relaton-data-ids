@@ -1,142 +1,136 @@
 ---
 schema-version: v1.2.3
-id: draft-ietf-satp-core-00
+id: draft-kcs-tvr-requirements-00
 title:
-- content: Secure Asset Transfer Protocol (SATP)
+- content: TVR (Time-Variant Routing) Requirements
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-ietf-satp-core-00
+- content: https://datatracker.ietf.org/doc/html/draft-kcs-tvr-requirements-00
   type: src
 type: standard
 docid:
-- id: draft-ietf-satp-core-00
+- id: draft-kcs-tvr-requirements-00
   type: Internet-Draft
   primary: true
-- id: I-D.ietf-satp-core
+- id: I-D.kcs-tvr-requirements
   type: IETF
   scope: anchor
-docnumber: I-D.ietf-satp-core
+docnumber: I-D.kcs-tvr-requirements
 date:
 - type: published
-  value: '2023-04-27'
+  value: '2023-07-08'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Martin
+        - content: Daniel
           language:
           - en
+        - language:
+          - en
+          initial: D
+        formatted_initials:
+          content: D.
+          language:
+          - en
+      surname:
+        content: King
+        language:
+        - en
+      completename:
+        content: Daniel King
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: Lancaster University
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Luis
+          language:
+          - en
+        - language:
+          - en
+          initial: L
         - language:
           - en
           initial: M
         formatted_initials:
-          content: M.
+          content: L. M.
           language:
           - en
       surname:
-        content: Hargreaves
+        content: Contreras
         language:
         - en
       completename:
-        content: Martin Hargreaves
+        content: Luis M. Contreras
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Quant Network
+        - content: Telefonica
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Thomas
+        - content: Brian
           language:
           - en
         - language:
           - en
-          initial: T
+          initial: B
         formatted_initials:
-          content: T.
+          content: B.
           language:
           - en
       surname:
-        content: Hardjono
+        content: Sipos
         language:
         - en
       completename:
-        content: Thomas Hardjono
+        content: Brian Sipos
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: MIT
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Rafael
-          language:
-          - en
-        - language:
-          - en
-          initial: R
-        formatted_initials:
-          content: R.
-          language:
-          - en
-      surname:
-        content: Belchior
-        language:
-        - en
-      completename:
-        content: Rafael Belchior
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - content: Technico Lisboa
+        - content: JHU/APL
   role:
   - type: author
 version:
 - draft: '00'
-revdate: '2023-04-27'
+revdate: '2023-07-08'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This memo This memo describes the Secure Asset Transfer (SAT) Protocol
-    for digital assets. SAT is a protocol operating between two gateways that conducts
-    the transfer of a digital asset from one gateway to another. The protocol establishes
-    a secure channel between the endpoints and implements a 2-phase commit to ensure
-    the properties of transfer atomicity, consistency, isolation and durability.</p>"
+- content: "<p>Time-Variant Routing (TVR) involves calculating a path, or subpath
+    within a network, taking into account the timing of message transmission or receipt
+    as an integral part of the overall route computation. The results of a TVR computation
+    are influenced by the specific time at which the path is needed, and the computation
+    is performed without any discernible alterations to the network topology or other
+    cost functions associated with the route. This document introduces requirements
+    for TVR computations to improve network communication and resource efficiency.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
-relation:
-- type: updatedBy
-  bibitem:
-    id: draft-ietf-satp-core-02
-    docid:
-    - id: draft-ietf-satp-core-02
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-ietf-satp-core-02
-      format: text/plain
 series:
 - type: main
   title:
@@ -146,7 +140,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-ietf-satp-core-00
+  number: draft-kcs-tvr-requirements-00
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

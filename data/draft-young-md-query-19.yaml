@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-young-md-query-18
+id: draft-young-md-query-19
 title:
 - content: Metadata Query Protocol
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-young-md-query-18
+- content: https://datatracker.ietf.org/doc/html/draft-young-md-query-19
   type: src
 type: standard
 docid:
-- id: draft-young-md-query-18
+- id: draft-young-md-query-19
   type: Internet-Draft
   primary: true
 - id: I-D.young-md-query
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.young-md-query
 date:
 - type: published
-  value: '2023-01-06'
+  value: '2023-07-08'
 contributor:
 - person:
     name:
@@ -53,8 +53,8 @@ contributor:
   role:
   - type: author
 version:
-- draft: '18'
-revdate: '2023-01-06'
+- draft: '19'
+revdate: '2023-07-08'
 language:
 - en
 script:
@@ -81,16 +81,6 @@ relation:
     formattedref:
       content: draft-young-md-query-12
       format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-young-md-query-19
-    docid:
-    - id: draft-young-md-query-19
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-young-md-query-19
-      format: text/plain
 series:
 - type: main
   title:
@@ -100,7 +90,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-young-md-query-18
+  number: draft-young-md-query-19
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

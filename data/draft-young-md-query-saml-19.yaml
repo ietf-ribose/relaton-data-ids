@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-young-md-query-saml-18
+id: draft-young-md-query-saml-19
 title:
 - content: SAML Profile for the Metadata Query Protocol
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-young-md-query-saml-18
+- content: https://datatracker.ietf.org/doc/html/draft-young-md-query-saml-19
   type: src
 type: standard
 docid:
-- id: draft-young-md-query-saml-18
+- id: draft-young-md-query-saml-19
   type: Internet-Draft
   primary: true
 - id: I-D.young-md-query-saml
@@ -22,7 +22,7 @@ docid:
 docnumber: I-D.young-md-query-saml
 date:
 - type: published
-  value: '2023-01-06'
+  value: '2023-07-08'
 contributor:
 - person:
     name:
@@ -53,8 +53,8 @@ contributor:
   role:
   - type: author
 version:
-- draft: '18'
-revdate: '2023-01-06'
+- draft: '19'
+revdate: '2023-07-08'
 language:
 - en
 script:
@@ -66,7 +66,7 @@ abstract:
     publication) Discussion of this draft takes place on the MDX mailing list (mdx@lists.iay.org.uk),
     which is accessed from [MDX.list]. XML versions, latest edits and the issues list
     for this document are available from [md-query]. The changes in this draft are
-    summarized in Appendix A.19.</p>"
+    summarized in Appendix A.20.</p>"
   language:
   - en
   script:
@@ -83,16 +83,6 @@ relation:
     formattedref:
       content: draft-young-md-query-saml-14
       format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-young-md-query-saml-19
-    docid:
-    - id: draft-young-md-query-saml-19
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-young-md-query-saml-19
-      format: text/plain
 series:
 - type: main
   title:
@@ -102,7 +92,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-young-md-query-saml-18
+  number: draft-young-md-query-saml-19
 doctype: internet-draft
 ext:
   schema-version: v1.0.0
