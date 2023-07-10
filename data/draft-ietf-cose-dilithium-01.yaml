@@ -1,62 +1,34 @@
 ---
 schema-version: v1.2.3
-id: draft-chen-pce-h-connect-access-12
+id: draft-ietf-cose-dilithium-01
 title:
-- content: PCEP Link State Abstraction
+- content: JOSE and COSE Encoding for Dilithium
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-chen-pce-h-connect-access-12
+- content: https://datatracker.ietf.org/doc/html/draft-ietf-cose-dilithium-01
   type: src
 type: standard
 docid:
-- id: draft-chen-pce-h-connect-access-12
+- id: draft-ietf-cose-dilithium-01
   type: Internet-Draft
   primary: true
-- id: I-D.chen-pce-h-connect-access
+- id: I-D.ietf-cose-dilithium
   type: IETF
   scope: anchor
-docnumber: I-D.chen-pce-h-connect-access
+docnumber: I-D.ietf-cose-dilithium
 date:
 - type: published
-  value: '2023-01-12'
+  value: '2023-07-09'
 contributor:
 - person:
     name:
       given:
         forename:
-        - content: Huaimo
-          language:
-          - en
-        - language:
-          - en
-          initial: H
-        formatted_initials:
-          content: H.
-          language:
-          - en
-      surname:
-        content: Chen
-        language:
-        - en
-      completename:
-        content: Huaimo Chen
-        language:
-        - en
-    affiliation:
-    - organization:
-        name:
-        - content: Futurewei
-  role:
-  - type: author
-- person:
-    name:
-      given:
-        forename:
-        - content: Mehmet
+        - content: Michael
           language:
           - en
         - language:
@@ -67,114 +39,152 @@ contributor:
           language:
           - en
       surname:
-        content: Toy
+        content: Prorock
         language:
         - en
       completename:
-        content: Mehmet Toy
+        content: Michael Prorock
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Verizon
+        - content: mesur.io
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Xufeng
+        - content: Orie
           language:
           - en
         - language:
           - en
-          initial: X
+          initial: O
         formatted_initials:
-          content: X.
+          content: O.
           language:
           - en
       surname:
-        content: Liu
+        content: Steele
         language:
         - en
       completename:
-        content: Xufeng Liu
+        content: Orie Steele
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: IBM Corporation
+        - content: Transmute
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Lei
+        - content: Rafael
           language:
           - en
         - language:
           - en
-          initial: L
+          initial: R
         formatted_initials:
-          content: L.
+          content: R.
           language:
           - en
       surname:
-        content: Liu
+        content: Misoczki
         language:
         - en
       completename:
-        content: Lei Liu
+        content: Rafael Misoczki
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: Fujitsu
+        - content: Google
   role:
   - type: author
 - person:
     name:
       given:
         forename:
-        - content: Zhenqiang
+        - content: Michael
           language:
           - en
         - language:
           - en
-          initial: Z
+          initial: M
         formatted_initials:
-          content: Z.
+          content: M.
           language:
           - en
       surname:
-        content: Li
+        content: Osborne
         language:
         - en
       completename:
-        content: Zhenqiang Li
+        content: Michael Osborne
         language:
         - en
     affiliation:
     - organization:
         name:
-        - content: China Mobile
+        - content: IBM
+  role:
+  - type: author
+- person:
+    name:
+      given:
+        forename:
+        - content: Christine
+          language:
+          - en
+        - language:
+          - en
+          initial: C
+        formatted_initials:
+          content: C.
+          language:
+          - en
+      surname:
+        content: Cloostermans
+        language:
+        - en
+      completename:
+        content: Christine Cloostermans
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: NXP
   role:
   - type: author
 version:
-- draft: '12'
-revdate: '2023-01-12'
+- draft: '01'
+revdate: '2023-07-09'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document presents extensions to the Path Computation Element Communication
-    Protocol (PCEP) for a child PCE to abstract its domain information to its parent
-    for supporting a hierarchical PCE system.</p>"
+- content: "<p>This document describes JSON and CBOR serializations for CRYSTALS Dilithium,
+    a Post-Quantum Cryptography (PQC) based suite. This document does not define any
+    new cryptography, only seralizations of existing cryptographic systems. This document
+    registers key types for JOSE and COSE, specifically MLWE. Key types in this document
+    are specified by the cryptographic algorithm family in use by a particular algorithm
+    as discussed in RFC7517. This document registers signature algorithms types for
+    JOSE and COSE, specifically CRYDI3 and others as required for use of various parameterizations
+    of the post-quantum signature scheme CRYSTALS Dilithium. Note to RFC Editor: CRYSTALS
+    Dilithium is described and noted as a part of the 2022 PQC Selected Digital Signature
+    Algorithims (https://csrc.nist.gov/Projects/post-quantum-cryptography/selected-
+    algorithms-2022) As a result, this document should not be proceed to AUTH48 until
+    NIST completes paramter tuning and selection as a part of the PQC (https://csrc.nist.gov/projects/post-quantum-cryptography)
+    standardization process.</p>"
   language:
   - en
   script:
@@ -183,23 +193,13 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-chen-pce-h-connect-access-11
+    id: draft-ietf-cose-dilithium-00
     docid:
-    - id: draft-chen-pce-h-connect-access-11
+    - id: draft-ietf-cose-dilithium-00
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-chen-pce-h-connect-access-11
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-chen-pce-h-connect-access-13
-    docid:
-    - id: draft-chen-pce-h-connect-access-13
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-chen-pce-h-connect-access-13
+      content: draft-ietf-cose-dilithium-00
       format: text/plain
 series:
 - type: main
@@ -210,7 +210,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-chen-pce-h-connect-access-12
+  number: draft-ietf-cose-dilithium-01
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

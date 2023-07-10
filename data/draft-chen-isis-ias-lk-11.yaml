@@ -1,28 +1,28 @@
 ---
 schema-version: v1.2.3
-id: draft-chen-pce-h-connect-access-12
+id: draft-chen-isis-ias-lk-11
 title:
-- content: PCEP Link State Abstraction
+- content: ISIS Extensions for Broadcast Inter-AS TE Link
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-chen-pce-h-connect-access-12
+- content: https://datatracker.ietf.org/doc/html/draft-chen-isis-ias-lk-11
   type: src
 type: standard
 docid:
-- id: draft-chen-pce-h-connect-access-12
+- id: draft-chen-isis-ias-lk-11
   type: Internet-Draft
   primary: true
-- id: I-D.chen-pce-h-connect-access
+- id: I-D.chen-isis-ias-lk
   type: IETF
   scope: anchor
-docnumber: I-D.chen-pce-h-connect-access
+docnumber: I-D.chen-isis-ias-lk
 date:
 - type: published
-  value: '2023-01-12'
+  value: '2023-07-09'
 contributor:
 - person:
     name:
@@ -164,17 +164,41 @@ contributor:
         - content: China Mobile
   role:
   - type: author
+- person:
+    name:
+      given:
+        forename:
+        - language:
+          - en
+          initial: Y
+        formatted_initials:
+          content: Y.
+          language:
+          - en
+      surname:
+        content: Yang
+        language:
+        - en
+      completename:
+        content: Yi Yang
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: IBM
+  role:
+  - type: author
 version:
-- draft: '12'
-revdate: '2023-01-12'
+- draft: '11'
+revdate: '2023-07-09'
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<p>This document presents extensions to the Path Computation Element Communication
-    Protocol (PCEP) for a child PCE to abstract its domain information to its parent
-    for supporting a hierarchical PCE system.</p>"
+- content: "<p>This document presents extensions to the ISIS protocol for advertising
+    broadcast inter-AS Traffic Engineering (TE) links.</p>"
   language:
   - en
   script:
@@ -183,23 +207,13 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-chen-pce-h-connect-access-11
+    id: draft-chen-isis-ias-lk-06
     docid:
-    - id: draft-chen-pce-h-connect-access-11
+    - id: draft-chen-isis-ias-lk-06
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-chen-pce-h-connect-access-11
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-chen-pce-h-connect-access-13
-    docid:
-    - id: draft-chen-pce-h-connect-access-13
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-chen-pce-h-connect-access-13
+      content: draft-chen-isis-ias-lk-06
       format: text/plain
 series:
 - type: main
@@ -210,7 +224,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-chen-pce-h-connect-access-12
+  number: draft-chen-isis-ias-lk-11
 doctype: internet-draft
 ext:
   schema-version: v1.0.0

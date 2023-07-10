@@ -1,28 +1,28 @@
 ---
 schema-version: v1.2.3
-id: draft-chen-pce-h-connect-access-12
+id: draft-chen-pce-h-discovery-13
 title:
-- content: PCEP Link State Abstraction
+- content: Hierarchical PCE Determination
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-chen-pce-h-connect-access-12
+- content: https://datatracker.ietf.org/doc/html/draft-chen-pce-h-discovery-13
   type: src
 type: standard
 docid:
-- id: draft-chen-pce-h-connect-access-12
+- id: draft-chen-pce-h-discovery-13
   type: Internet-Draft
   primary: true
-- id: I-D.chen-pce-h-connect-access
+- id: I-D.chen-pce-h-discovery
   type: IETF
   scope: anchor
-docnumber: I-D.chen-pce-h-connect-access
+docnumber: I-D.chen-pce-h-discovery
 date:
 - type: published
-  value: '2023-01-12'
+  value: '2023-07-09'
 contributor:
 - person:
     name:
@@ -165,16 +165,16 @@ contributor:
   role:
   - type: author
 version:
-- draft: '12'
-revdate: '2023-01-12'
+- draft: '13'
+revdate: '2023-07-09'
 language:
 - en
 script:
 - Latn
 abstract:
 - content: "<p>This document presents extensions to the Path Computation Element Communication
-    Protocol (PCEP) for a child PCE to abstract its domain information to its parent
-    for supporting a hierarchical PCE system.</p>"
+    Protocol (PCEP) for determining parent child relations and exchanging the information
+    between a parent and a child PCE in a hierarchical PCE system.</p>"
   language:
   - en
   script:
@@ -183,23 +183,13 @@ abstract:
 relation:
 - type: updates
   bibitem:
-    id: draft-chen-pce-h-connect-access-11
+    id: draft-chen-pce-h-discovery-09
     docid:
-    - id: draft-chen-pce-h-connect-access-11
+    - id: draft-chen-pce-h-discovery-09
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-chen-pce-h-connect-access-11
-      format: text/plain
-- type: updatedBy
-  bibitem:
-    id: draft-chen-pce-h-connect-access-13
-    docid:
-    - id: draft-chen-pce-h-connect-access-13
-      type: Internet-Draft
-      primary: true
-    formattedref:
-      content: draft-chen-pce-h-connect-access-13
+      content: draft-chen-pce-h-discovery-09
       format: text/plain
 series:
 - type: main
@@ -210,7 +200,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-chen-pce-h-connect-access-12
+  number: draft-chen-pce-h-discovery-13
 doctype: internet-draft
 ext:
   schema-version: v1.0.0
