@@ -1,6 +1,6 @@
 ---
 schema-version: v1.2.3
-id: draft-irtf-coinrg-use-case-analysis-00
+id: draft-irtf-coinrg-use-case-analysis-01
 title:
 - content: Use Case Analysis for Computing in the Network
   language:
@@ -9,11 +9,11 @@ title:
   - Latn
   format: text/plain
 link:
-- content: https://datatracker.ietf.org/doc/html/draft-irtf-coinrg-use-case-analysis-00
+- content: https://datatracker.ietf.org/doc/html/draft-irtf-coinrg-use-case-analysis-01
   type: src
 type: standard
 docid:
-- id: draft-irtf-coinrg-use-case-analysis-00
+- id: draft-irtf-coinrg-use-case-analysis-01
   type: Internet-Draft
   primary: true
 - id: I-D.irtf-coinrg-use-case-analysis
@@ -22,8 +22,36 @@ docid:
 docnumber: I-D.irtf-coinrg-use-case-analysis
 date:
 - type: published
-  value: '2023-03-10'
+  value: '2023-07-10'
 contributor:
+- person:
+    name:
+      given:
+        forename:
+        - content: Jungha
+          language:
+          - en
+        - language:
+          - en
+          initial: J
+        formatted_initials:
+          content: J.
+          language:
+          - en
+      surname:
+        content: Hong
+        language:
+        - en
+      completename:
+        content: Jungha Hong
+        language:
+        - en
+    affiliation:
+    - organization:
+        name:
+        - content: ETRI
+  role:
+  - type: author
 - person:
     name:
       given:
@@ -218,35 +246,34 @@ contributor:
   role:
   - type: author
 version:
-- draft: '00'
-revdate: '2023-03-10'
+- draft: '01'
+revdate: '2023-07-10'
 language:
 - en
 script:
 - Latn
 abstract:
 - content: "<p>Computing in the Network (COIN) has the potential to enable a wide
-    variety of use cases. The diversity in use cases makes general considerations
-    challenging. In an effort to capture the breadth of possible scenarios, another
-    COINRG document presents a selection of concrete use cases, each representing
-    a broader set of settings. This document analyzes the described use cases (and
-    potentially further settings) to identify general aspects of interest across all
-    use cases to steer future COIN discussions.</p>"
+    variety of use cases. The diversity in use cases makes challenges in defining
+    general considerations. This document analyzes the use cases described in its
+    companion document and potentially explores additional settings, to identify general
+    aspects of interest across all use cases. The insights gained from this analysis
+    will guide future COIN discussions.</p>"
   language:
   - en
   script:
   - Latn
   format: text/html
 relation:
-- type: updatedBy
+- type: updates
   bibitem:
-    id: draft-irtf-coinrg-use-case-analysis-01
+    id: draft-irtf-coinrg-use-case-analysis-00
     docid:
-    - id: draft-irtf-coinrg-use-case-analysis-01
+    - id: draft-irtf-coinrg-use-case-analysis-00
       type: Internet-Draft
       primary: true
     formattedref:
-      content: draft-irtf-coinrg-use-case-analysis-01
+      content: draft-irtf-coinrg-use-case-analysis-00
       format: text/plain
 series:
 - type: main
@@ -257,7 +284,7 @@ series:
     script:
     - Latn
     format: text/plain
-  number: draft-irtf-coinrg-use-case-analysis-00
+  number: draft-irtf-coinrg-use-case-analysis-01
 doctype: internet-draft
 ext:
   schema-version: v1.0.0
